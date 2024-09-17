@@ -14,9 +14,11 @@ background-color: aquamarine;
 background-color: #242f44; (dark-grey-blue)
 **/
 
+/**
 p {
   color: rgb(6, 39, 39);
 }
+**/  
 
 h1 {
   color: maroon;
