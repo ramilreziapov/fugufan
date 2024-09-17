@@ -1,3 +1,7 @@
+* {
+  border: 1px solid green;
+}
+
 body {
   background-color: lightcoral;
 }
@@ -8,3 +12,12 @@ background-color: aquamarine;
 1] background-color: lightcoral;
 2] background-color: lightskyblue;
 background-color: #242f44; (dark-grey-blue)
+**/
+
+p {
+  color: rgb(6, 39, 39);
+}
+
+h1 {
+  color: maroon;
+}
