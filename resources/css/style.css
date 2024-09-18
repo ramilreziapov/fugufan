@@ -3,6 +3,7 @@
   border: 1px solid green;
 }
 */
+
 body {
   /* background-color: lightcoral;*/
   background-color: #141E30;
@@ -23,6 +24,7 @@ p {
 
 h1 {
   color: maroon;
+  text-align: center;
 }
 
 a:hover {
@@ -31,6 +33,7 @@ a:hover {
 
 .titleNews {
   font-family: fantasy;
+  text-align: center;
 }
 
 .heading-background {
@@ -39,12 +42,13 @@ a:hover {
 
 #attention {
   color: rgb(4, 117, 117);
+  text-align: right;
 }
 
 nav a {
   color: rgb(126, 2, 249);
 }
 
-ul li a {
+ul li, ul a {
   color: rgb(126, 2, 249);
 }
