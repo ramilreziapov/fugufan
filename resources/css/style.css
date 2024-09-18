@@ -1,9 +1,11 @@
+/*
 * {
   border: 1px solid green;
 }
-
+*/
 body {
-  background-color: lightcoral;
+  /* background-color: lightcoral;*/
+  background-color: #141E30;
 }
 
 /**
@@ -16,7 +18,7 @@ background-color: #242f44; (dark-grey-blue)
 
 
 p {
-  color: rgb(7, 65, 65);
+  color: rgb(4, 117, 117);
 }
 
 h1 {
@@ -36,5 +38,13 @@ a:hover {
 }
 
 #attention {
-  color: maroon;
+  color: rgb(4, 117, 117);
+}
+
+nav a {
+  color: rgb(126, 2, 249);
+}
+
+ul li a {
+  color: rgb(126, 2, 249);
 }
