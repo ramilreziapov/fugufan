@@ -16,9 +16,25 @@ background-color: #242f44; (dark-grey-blue)
 
 
 p {
-  color: rgb(6, 39, 39);
+  color: rgb(7, 65, 65);
 }
 
 h1 {
+  color: maroon;
+}
+
+a:hover {
+  color: maroon;
+}
+
+.titleNews {
+  font-family: fantasy;
+}
+
+.heading-background {
+  background-color: aquamarine;
+}
+
+#attention {
   color: maroon;
 }
