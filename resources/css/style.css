@@ -19,7 +19,7 @@ background-color: #242f44; (dark-grey-blue)
 
 
 p {
-  color: rgb(4, 117, 117);
+  color: rgb(4, 146, 146);
 }
 
 h1 {
@@ -37,7 +37,8 @@ a:hover {
 }
 
 .heading-background {
-  background-color: aquamarine;
+  /*background-color: aquamarine;*/
+  background-color: rgb(4, 146, 146);
 }
 
 #attention {
