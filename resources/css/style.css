@@ -17,39 +17,49 @@ background-color: aquamarine;
 background-color: #242f44; (dark-grey-blue)
 **/
 
+h1 {
+  color: maroon;
+  font-size: 3em;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(167, 249, 2);
+  font-weight: 800;
+  font-family: fantasy;
+  font-size: 2em;
+  text-align: center;
+  background-color: rgb(4, 146, 146);
+}
 
 p {
   color: rgb(4, 146, 146);
+  line-height: 1.3em;
+  font-size: 18px;
 }
 
-h1 {
-  color: maroon;
-  text-align: center;
+nav a {
+  color: rgb(126, 2, 249);
+  font-size: 1.2em;
 }
 
 a:hover {
   color: maroon;
 }
 
-.titleNews {
-  font-family: fantasy;
-  text-align: center;
+ul li, ul a {
+  color: rgb(126, 2, 249);
+  font-size: 18px;
 }
 
-.heading-background {
-  /*background-color: aquamarine;*/
-  background-color: rgb(4, 146, 146);
+figure {
+  color: rgb(4, 146, 146);
 }
 
 #attention {
-  color: rgb(4, 117, 117);
+  color: rgb(4, 146, 146);
   text-align: right;
-}
-
-nav a {
-  color: rgb(126, 2, 249);
-}
-
-ul li, ul a {
-  color: rgb(126, 2, 249);
 }
