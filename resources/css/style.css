@@ -1,8 +1,7 @@
-/*
+
 * {
   border: 1px solid green;
 }
-*/
 
 body {
   /* background-color: lightcoral;*/
@@ -33,6 +32,7 @@ h2 {
   font-size: 2em;
   text-align: center;
   background-color: rgb(4, 146, 146);
+  letter-spacing: 2px;
 }
 
 p {
@@ -41,9 +41,23 @@ p {
   font-size: 18px;
 }
 
-nav a {
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.navbar a {
   color: rgb(126, 2, 249);
   font-size: 1.2em;
+  padding-right: 30px;
+  text-decoration: none;
+}
+
+.navbar-text {
+  color: rgb(126, 2, 249);
+  align-self: right;
+  font-size: 18px;
 }
 
 a:hover {
@@ -55,11 +69,15 @@ ul li, ul a {
   font-size: 18px;
 }
 
-figure {
-  color: rgb(4, 146, 146);
+.music {
+  display:flex;
+  justify-content: space-between;
 }
 
-#attention {
+/*
+.music figcaption {
   color: rgb(4, 146, 146);
-  text-align: right;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
+*/
