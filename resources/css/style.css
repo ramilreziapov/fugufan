@@ -1,7 +1,8 @@
-
+/*
 * {
   border: 1px solid green;
 }
+*/
 
 body {
   /* background-color: lightcoral;*/
@@ -19,10 +20,15 @@ background-color: #242f44; (dark-grey-blue)
 h1 {
   color: maroon;
   font-size: 3em;
-  padding-top: 100px;
+  padding-top: 20px;
   padding-bottom: 100px;
   width: 100%;
   text-align: center;
+}
+
+.amv {
+  padding-top: 60px;
+  padding-bottom: 100px;
 }
 
 h2 {
@@ -70,9 +76,42 @@ ul li, ul a {
 }
 
 .music {
-  display:flex;
-  justify-content: space-between;
+  position: relative;
+  width: 100%;
 }
+
+.banner {
+  padding-top: 50px;
+  padding-left: 43%;
+}
+
+.ai strong {
+  color: rgb(167, 249, 2);
+}
+
+/*
+.music video {
+  position: absolute;
+}
+*/
+
+/*
+.overlay-text {
+
+  color: rgb(4, 146, 146);
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+*/
+
+/*
+.music {
+  display: flex;
+  justify-content: space-between;
+
+}
+*/
 
 /*
 .music figcaption {
