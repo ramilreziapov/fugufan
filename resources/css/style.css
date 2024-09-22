@@ -18,28 +18,30 @@ background-color: #242f44; (dark-grey-blue)
 **/
 
 .image_banner_background {
-  background-image: url(../images/banner_background_1.jpg);
-  background-size: cover;
+  background-image: url(../images/banner_background_2.png);
+  background-size: contain;
   background-position: center;
-  height: 400px;
-  display: flex;
+  /*height: 400px;*/
 }
 
 .caption-A {
   color: rgb(170, 7, 170);
   font-size: 35px;
   padding-left: 35%;
-  padding-top: 5.5%;
+  padding-top: 18%;
   font-weight: 800;
   position: relative;
 }
 
+/*
 .caption-B {
   color: rgb(170, 7, 170);
   font-size: 35px;
-  padding-left: 15%;
+  padding-left: 12%;
+  padding-top: 3%;
   font-weight: 800;
 }
+*/
 
 h1 {
   color: maroon;
@@ -121,7 +123,7 @@ ul li, ul a {
   display: flex;
   justify-content: center;
   padding-top: 60px;
-  background-image: url("banner_")
+  /*background-image: url("banner_")*/
 }
 
 .banner img {
