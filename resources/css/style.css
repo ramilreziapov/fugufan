@@ -18,19 +18,22 @@ background-color: #242f44; (dark-grey-blue)
 **/
 
 .image_banner_background {
-  background-image: url(../images/banner_background_2.png);
+  background-image: url(../images/banner_background_final.png);
   background-size: contain;
   background-position: center;
-  /*height: 400px;*/
+  height: 300px;
 }
 
 .caption-A {
-  color: rgb(170, 7, 170);
-  font-size: 35px;
-  padding-left: 35%;
-  padding-top: 18%;
+  display: block;
+  /*background-color: #141E30;*/
+  color: maroon;
+  font-size: 3em;
   font-weight: 800;
   position: relative;
+  top: 43.5%;
+  width: 14.2%;
+  left: 44%;
 }
 
 /*
