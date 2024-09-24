@@ -67,6 +67,7 @@ h1 {
 .header-furo h1 {
   color: maroon;
   font-size: 3em;
+  padding-top: 60px;
   padding-bottom: 60px;
   width: 100%;
   text-align: center;
@@ -148,11 +149,25 @@ ul li, ul a {
   width: 200px;
 }
 
+#banner-furo {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+
 .banner-furo img {
   height: 200px;
-  width: 200px;
-  padding-left: 60px;
+  width: 100px;
 }
+
+#banner-furo .full {
+  height: 200px;
+  width: 200px;
+  padding-left: 40px;
+  padding-right: 40px;
+} 
 
 .ai strong {
   color: rgb(167, 249, 2);
