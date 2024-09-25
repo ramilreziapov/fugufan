@@ -3,9 +3,8 @@
   border: 1px solid green;
 }
 */
+
 body {
-  width: 100%;
-  height: 100%;
   background-color: black;
   display: flex;
   justify-content: center;
@@ -17,13 +16,40 @@ main {
   padding: 5px;
 }
 
-/**
-background-color: rgb(72,61,139);
-background-color: aquamarine;
-1] background-color: lightcoral;
-2] background-color: lightskyblue;
-background-color: #242f44; (dark-grey-blue)
-**/
+.navigation {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.navigation a {
+  color: rgb(126, 2, 249);
+  font-size: 1.4em;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.navigation .site-name {
+  color: maroon;
+  font-size: 1.6em;
+}
+
+a:hover {
+  color: maroon;
+}
+
+.attention {
+  color: gray;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+
+
+
 
 .image_banner_background {
   background-image: url(../images/banner_background_best.png);
@@ -95,37 +121,7 @@ p, #fugu li, #logic li, #runaway li, #main-furo li {
   font-size: 18px;
 }
 
-.navbar {
-  display: flex;
-  justify-content: center;
-  padding-top: 20px;
 
-}
-
-.navbar a {
-  color: rgb(126, 2, 249);
-  font-size: 1.4em;
-  padding-right: 10px;
-  padding-left: 10px;
-  text-decoration: none;
-}
-
-.navbar-text {
-  color: gray;
-  font-size: 18px;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
-
-.navbar .site-name {
-  color: maroon;
-  font-size: 1.6em;
-}
-
-a:hover {
-  color: maroon;
-}
 
 ul li, ul a {
   color: rgb(126, 2, 249);
