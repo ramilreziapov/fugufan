@@ -3,7 +3,6 @@
   border: 1px solid green;
 }
 */
-
 body {
   background-color: black;
   display: flex;
@@ -47,40 +46,25 @@ a:hover {
   padding-bottom: 20px;
 }
 
-
-
-
-
-.image_banner_background {
+.banner {
   background-image: url(../images/banner_background_best.png);
-  /*background-image: url(../images/furo_1_logo_back.png);*/
-  /*background-image: url(../images/furo_2_logo_back.png);*/
   background-size:contain;
   background-position: center;
-  height: 300px;
-}
-
-.caption-A {
-  display: block;
-  /*background-color: #141E30;*/
-  color: maroon;
-  font-size: 3em;
-  font-weight: 800;
+  height: 320px;
   position: relative;
-  top: 43.5%;
-  width: 14.2%;
-  left: 44%;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
-/*
-.caption-B {
-  color: rgb(170, 7, 170);
-  font-size: 35px;
-  padding-left: 12%;
-  padding-top: 3%;
-  font-weight: 800;
+.banner-logo {
+  position: absolute;
+  top: 5px;
+  right: 320px;
+  transform: translate(-50%, -50%);
+  height: 200px;
+  width: 200px;
 }
-*/
+
 
 h1 {
   color: maroon;
@@ -121,8 +105,6 @@ p, #fugu li, #logic li, #runaway li, #main-furo li {
   font-size: 18px;
 }
 
-
-
 ul li, ul a {
   color: rgb(126, 2, 249);
   font-size: 18px;
@@ -132,18 +114,6 @@ ul li, ul a {
 .music {
   position: relative;
   width: 100%;
-}
-
-.banner {
-  display: flex;
-  justify-content: center;
-  padding-top: 60px;
-  /*background-image: url("banner_")*/
-}
-
-.banner img {
-  height: 200px;
-  width: 200px;
 }
 
 #banner-furo {
@@ -204,12 +174,6 @@ footer img {
   padding-bottom: 100px;
 }
 
-/*
-.art {
-  display: flex;
-  justify-content: center;
-}
-*/
 
 .art img {
   padding-right: 5px;
@@ -217,12 +181,6 @@ footer img {
   width: 400px;
 }
 
-/*
-.music {
-  display: flex;
-  justify-content: center;
-}
-*/
 
 .music video {
   padding-right: 5px;
@@ -244,16 +202,9 @@ footer img {
 #anime {
   height: 768px;
   width: 768px;
-/*
-  display: flex;
-  justify-content: center;
-*/
-  
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  /*gap: 20px;*/
   margin-left: 19.5%;
-
 }
 
 section {
@@ -299,20 +250,5 @@ section {
     background-image: url(../images/furo_1_logo_back.png);
   }
 }
-/*
-.music figcaption {
-  color: rgb(4, 146, 146);
-  font-size: 18px;
-  letter-spacing: 1px;
-}
-*/
 
-/*
-.overlay-text {
-  color: rgb(4, 146, 146);
-  font-size: 18px;
-  letter-spacing: 1px;
-  text-align: center;
-}
-*/
 
