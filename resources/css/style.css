@@ -4,6 +4,8 @@
 }
 */
 
+/* SOMETHING INTERESTING */
+
 body {
   background-color: black;
   display: flex;
@@ -69,57 +71,25 @@ a:hover {
 h1 {
   color: maroon;
   font-size: 3em;
-  padding-top: 90px;
+  padding-top: 80px;
   padding-bottom: 120px;
   text-align: center;
 }
 
 h2 {
   color: rgb(167, 249, 2);
-  font-weight: 800;
   font-family: fantasy;
   font-size: 2em;
+  letter-spacing: 1px;
   text-align: center;
   background-color: rgb(4, 146, 146);
-  letter-spacing: 2px;
 }
 
-p, #fugu li, #logic li, #runaway li, #main-furo li {
+p, li {
   color: rgb(4, 146, 146);
   line-height: 1.3em;
   font-size: 18px;
 }
-
-ul li, ul a {
-  color: rgb(126, 2, 249);
-  font-size: 18px;
-  text-decoration: none;
-}
-
-.music {
-  position: relative;
-  width: 100%;
-}
-
-#banner-furo {
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  padding-top: 80px;
-}
-
-
-.banner-furo img {
-  height: 200px;
-  width: 100px;
-}
-
-#banner-furo .full {
-  height: 200px;
-  width: 200px;
-  padding-left: 40px;
-  padding-right: 40px;
-} 
 
 .ai strong {
   color: rgb(167, 249, 2);
@@ -138,13 +108,18 @@ ul li, ul a {
   width: 400px;
 }
 
-footer figcaption {
-  display: flex;
-  justify-content: right;
-  color: gray;
-  line-height: 1.3em;
+.ul-music li, .ul-music a {
+  color: rgb(126, 2, 249);
   font-size: 18px;
-  padding-top: 15px;
+  text-decoration: none;
+}
+
+#fugu, #logic {
+  padding-bottom: 100px;
+}
+
+footer {
+  margin-top: 200px;
 }
 
 footer img {
@@ -155,10 +130,16 @@ footer img {
   padding: 15px;
 }
 
-#fugu, #logic, #runaway {
-  padding-bottom: 100px;
+footer figcaption {
+  display: flex;
+  justify-content: right;
+  color: gray;
+  line-height: 1.3em;
+  font-size: 18px;
+  padding-top: 15px;
 }
 
+/* ART */
 
 .art img {
   padding-right: 5px;
@@ -166,11 +147,18 @@ footer img {
   width: 400px;
 }
 
+/* Music */
 
 .music video {
   padding-right: 5px;
   height: 400px;
   width: 400px;
+}
+
+/* Video */
+
+.h1-video {
+  padding-bottom: 80px;
 }
 
 .video-gallery {
@@ -183,6 +171,27 @@ footer img {
   height: 300px;
   width: 400px;
 }
+
+/* FuRo */
+
+#banner-furo {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.banner-furo img {
+  height: 200px;
+  width: 100px;
+}
+
+#banner-furo .full {
+  height: 200px;
+  width: 200px;
+  padding-left: 40px;
+  padding-right: 40px;
+} 
 
 #anime {
   height: 768px;
