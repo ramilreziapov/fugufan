@@ -172,26 +172,12 @@ footer figcaption {
   width: 400px;
 }
 
-/* FuRo */
+/* FuRo with banner animation */
 
-#banner-furo {
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  padding-top: 80px;
+section {
+  unicode-bidi: isolate;
+  padding-top: 20px;
 }
-
-.banner-furo img {
-  height: 200px;
-  width: 100px;
-}
-
-#banner-furo .full {
-  height: 200px;
-  width: 200px;
-  padding-left: 40px;
-  padding-right: 40px;
-} 
 
 #anime {
   height: 768px;
@@ -200,11 +186,6 @@ footer figcaption {
   grid-template-columns: repeat(1, 1fr);
   margin-left: 19.5%;
   margin-bottom: 100px;
-}
-
-section {
-  unicode-bidi: isolate;
-  padding-top: 20px;
 }
 
 .slides {
@@ -246,4 +227,25 @@ section {
   }
 }
 
+/* FuRo without banner animation */
 
+/*
+#banner-furo {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.banner-furo img {
+  height: 200px;
+  width: 100px;
+}
+
+#banner-furo .full {
+  height: 200px;
+  width: 200px;
+  padding-left: 40px;
+  padding-right: 40px;
+} 
+*/
