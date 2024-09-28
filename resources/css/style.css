@@ -14,8 +14,8 @@ body {
 
 main {
   background-color: #141E30;
-  width: 1300px;
-  padding: 10px;
+  width: 1260px;
+
 }
 
 .navigation {
@@ -161,7 +161,7 @@ footer figcaption {
   height: 400px;
   width: 400px;
   padding: 5px;
-  margin: 5px;
+  margin: 0 auto;
   border: 3px solid maroon;
 }
 
