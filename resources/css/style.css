@@ -15,20 +15,19 @@ body {
 main {
   background-color: #141E30;
   width: 1260px;
-
 }
 
 .navigation {
   display: flex;
   justify-content: center;
-  padding-top: 20px;
+  margin-top: 30px;
 }
 
 .navigation a {
   color: rgb(126, 2, 249);
   font-size: 1.4em;
-  padding-right: 10px;
-  padding-left: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   text-decoration: none;
 }
 
@@ -44,6 +43,7 @@ a:hover {
 .attention {
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .attention em {
@@ -53,18 +53,16 @@ a:hover {
   width:fit-content;
   border: 0.5px dotted gray;
   padding: 2px;
-  margin-top: 10px;
-  margin-bottom: 40px;
+
 }
 
 .banner {
   background-image: url(../images/banner_background_best.png);
-  background-size:contain;
+  background-size: contain;
   background-position: center;
   height: 320px;
   position: relative;
-  margin-top: 60px;
-  margin-bottom: 100px;
+  margin-top: 70px;
 }
 
 .banner-logo {
@@ -79,9 +77,9 @@ a:hover {
 h1 {
   color: maroon;
   font-size: 3em;
-  margin-top: 60px;
-  margin-bottom: 120px;
   text-align: center;
+  margin-top: 140px;
+  margin-bottom: 140px;
 }
 
 h2 {
@@ -91,9 +89,8 @@ h2 {
   letter-spacing: 1px;
   text-align: center;
   background-color: rgb(4, 146, 146);
-
-  padding: 8px;
   font-weight: bold;
+  padding: 8px;
   border: 1px solid rgb(167, 249, 2);
   border-radius: 50%;
 }
@@ -102,18 +99,26 @@ p, li {
   color: rgb(4, 146, 146);
   line-height: 1.3em;
   font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #ai p{
   color: rgb(167, 249, 2);
-  margin-left: 20px;
-  font-weight: bold;
+  margin-left: 30px;
+  font-weight: 0;
+  text-align: center;
+  width:fit-content;
+  padding: 1px 5px 1px 5px;
+  border: 0.5px solid rgb(167, 249, 2);
+  border-radius: 25%;
+  letter-spacing: 1px;
 }
 
 .news-image {
   display: flex;
   justify-content: center;
-  padding-top: 20px;
+  margin-top: 40px;
 }
 
 .news-image img {
@@ -131,11 +136,12 @@ p, li {
 }
 
 #fugu, #logic {
-  padding-bottom: 100px;
+  margin-bottom: 140px;
 }
 
 footer {
-  margin-top: 200px;
+  margin-top: 140px;
+  margin-bottom: 30px;
 }
 
 footer img {
@@ -184,7 +190,7 @@ footer figcaption {
 
 section {
   unicode-bidi: isolate;
-  padding-top: 20px;
+  margin-top: 40px;
 }
 
 #anime {
@@ -193,7 +199,6 @@ section {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   margin-left: 19.5%;
-  margin-bottom: 100px;
 }
 
 .slides {
