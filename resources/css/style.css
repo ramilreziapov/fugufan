@@ -77,7 +77,7 @@ a:hover {
 }
 
 .banner-logo {
-  position: absolute; /* maargin: 0 auto; -horizontally centers an element inside of its parent */
+  position: absolute; /* margin: 0 auto; -horizontally centers an element inside of its parent */
   top: 2px;
   right: 320px;
   transform: translate(-50%, -50%);
@@ -173,13 +173,24 @@ footer figcaption {
   padding-top: 15px;
 }
 
-/* ART * Music*/
+/* ART */ /* Music */
+
+#art-gallery, #music-gallery {
+  position: relative;
+  text-align: center;
+}
+
+.art, .music {
+  display: inline-block;
+  height: fit-content;
+  width: fit-content;
+  margin: 5px;
+}
 
 .art img, .music video {
-  height: 400px;
-  width: 400px;
+  height: 380px;
+  width: 380px;
   padding: 5px;
-  margin: 0 auto;
   border: 3px solid maroon;
 }
 
@@ -192,7 +203,7 @@ footer figcaption {
 
 .video-gallery video {
   height: 240px;
-  width: 400px;
+  width: 380px;
   padding: 5px;
   margin: 5px;
   border: 3px solid maroon;
