@@ -85,12 +85,38 @@ a:hover {
   width: 200px;
 }
 
+header {
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+
 h1 {
   color: maroon;
   font-size: 3em;
   text-align: center;
-  margin-top: 140px;
-  margin-bottom: 140px;
+}
+
+.news {
+  text-align: center;
+}
+
+.news a {
+  background-color: #9DD1F1;
+  border-radius: 3px;
+  color: #004E89;
+  font-size: 16px;
+  font-weight: 300;
+  display: inline-block;
+  margin-right: 40px;
+  margin-left: 40px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.news a:hover {
+  background-color: lemonchiffon;
 }
 
 h2 {
@@ -116,8 +142,7 @@ p, li {
 
 #ai p{
   color: rgb(167, 249, 2);
-  margin-left: 30px;
-  font-weight: 0;
+  margin: 10px 10px 10px 30px;
   text-align: center;
   width:fit-content;
   padding: 1px 5px 1px 5px;
