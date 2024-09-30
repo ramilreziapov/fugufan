@@ -90,7 +90,7 @@ a:hover {
   margin-bottom: 100px;
 }
 
-header {
+.header {
   margin-top: 140px;
   margin-bottom: 140px;
 }
@@ -205,25 +205,54 @@ footer figcaption {
   padding-top: 15px;
 }
 
-/* ART */ /* Music */
+/* ART */ 
 
-#art-gallery, #music-gallery {
+#art-gallery {
   position: relative;
   text-align: center;
 }
 
-.art, .music {
+.art {
   display: inline-block;
   height: fit-content;
   width: fit-content;
   margin: 5px;
 }
 
-.art img, .music video {
+.art img {
   height: 380px;
   width: 380px;
   padding: 5px;
   border: 3px solid maroon;
+}
+
+/* Music */
+
+#music-gallery {
+  position: relative;
+  text-align: center;
+}
+
+.music {
+  display:inline-block;
+  height: fit-content;
+  width: fit-content;
+  margin: 5px 5px 20px 5px;
+  border: 3px solid maroon;
+}
+
+.music video {
+  height: 380px;
+  width: 380px;
+  padding: 5px;
+
+}
+
+.p-music {
+  position: relative;
+  color: #05A8AA;
+  font-size: 18px;
+  margin: 0 auto;
 }
 
 /* Video */
