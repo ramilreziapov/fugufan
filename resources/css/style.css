@@ -85,6 +85,11 @@ a:hover {
   width: 200px;
 }
 
+.header-some {
+  margin-top: 140px;
+  margin-bottom: 100px;
+}
+
 header {
   margin-top: 140px;
   margin-bottom: 140px;
@@ -125,7 +130,8 @@ h2 {
   font-size: 2em;
   letter-spacing: 1px;
   text-align: center;
-  background-color: rgb(4, 146, 146);
+  /*background-color: rgb(4, 146, 146);*/
+  background-color: #05A8AA;
   font-weight: bold;
   padding: 8px;
   border: 1px solid rgb(167, 249, 2);
@@ -133,7 +139,8 @@ h2 {
 }
 
 p, li {
-  color: rgb(4, 146, 146);
+  /*color: rgb(4, 146, 146);*/
+  color: #05A8AA;
   line-height: 1.3em;
   font-size: 18px;
   margin-left: 10px;
