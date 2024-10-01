@@ -18,8 +18,8 @@
 /* SOMETHING INTERESTING */
 
 body {
-  /*background-color: black;*/
-  background-color:#141E30;;
+  background-color: black;
+  /*background-color:#141E30;*/
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -70,7 +70,6 @@ a:hover {
   width:fit-content;
   border: 0.5px dotted gray;
   padding: 2px;
-
 }
 
 .banner {
@@ -79,7 +78,7 @@ a:hover {
   background-position: center;
   height: 320px;
   position: relative;
-  margin-top: 80px;
+  /*margin-top: 80px;*/
 }
 
 .banner-logo {
@@ -94,12 +93,12 @@ a:hover {
 main {
   background-color: #141E30;
   width: 1260px;
-  margin-top: 480px;
+  margin-top: 180px;
 }
 
 .header-some {
-  margin-top: 140px;
-  margin-bottom: 100px;
+  margin: 0 auto;
+  background-color: black;
 }
 
 .header {
