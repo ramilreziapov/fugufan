@@ -18,20 +18,25 @@
 /* SOMETHING INTERESTING */
 
 body {
-  background-color: black;
+  /*background-color: black;*/
+  background-color:#141E30;;
   display: flex;
   justify-content: center;
+  margin: 0 auto;
 }
 
-main {
-  background-color: #141E30;
-  width: 1260px;
+#nav-div {
+  /*background-color: #466995;*/
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 }
 
 .navigation {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .navigation a {
@@ -44,7 +49,7 @@ main {
 
 .navigation .site-name {
   color: maroon;
-  font-size: 1.6em;
+  font-size: 36px;
 }
 
 a:hover {
@@ -55,6 +60,7 @@ a:hover {
   display: flex;
   justify-content: center;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .attention em {
@@ -73,7 +79,7 @@ a:hover {
   background-position: center;
   height: 320px;
   position: relative;
-  margin-top: 70px;
+  margin-top: 80px;
 }
 
 .banner-logo {
@@ -83,6 +89,12 @@ a:hover {
   transform: translate(-50%, -50%);
   height: 200px;
   width: 200px;
+}
+
+main {
+  background-color: #141E30;
+  width: 1260px;
+  margin-top: 480px;
 }
 
 .header-some {
@@ -210,6 +222,7 @@ footer figcaption {
 #art-gallery {
   position: relative;
   text-align: center;
+
 }
 
 .art {
