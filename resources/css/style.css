@@ -68,7 +68,7 @@ a:hover {
   font-size: 18px;
   text-align: center;
   width:fit-content;
-  border: 0.5px dotted gray;
+  border-bottom: 0.5px dotted gray;
   padding: 2px;
 }
 
@@ -121,13 +121,16 @@ h1 {
 .news {
   text-align: center;
   background-color: black;
-  padding-bottom: 60px;
+  padding-bottom: 80px;
+
 }
 
 .news a {
-  background-color: #9DD1F1;
+  /*background-color: #9DD1F1;
   border-radius: 3px;
   color: #004E89;
+  color: rgb(30, 94, 244);*/
+  color: gray;
   font-size: 16px;
   font-weight: 300;
   display: inline-block;
@@ -137,10 +140,11 @@ h1 {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  border-bottom: 0.5px dotted gray;
 }
 
 .news a:hover {
-  background-color: lemonchiffon;
+  color: lemonchiffon;
 }
 
 #fugu, #logic, #runaway {
