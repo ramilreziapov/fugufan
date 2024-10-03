@@ -61,6 +61,28 @@ body {
   font-weight: normal;
 }
 
+.navigation .site-some {
+  /*color: maroon;*/
+  font-size: 36px;
+  font-family: Gruppo;
+  font-weight: bolder;
+  word-spacing: 5px;
+  font-style: normal;
+  color: rgb(167, 249, 2);
+  /*color: hsl(325, 50%, 50%);*/
+}
+
+.navigation .site-art {
+  /*color: maroon;*/
+  font-size: 36px;
+  font-family: Gruppo;
+  font-weight: bolder;
+  word-spacing: 5px;
+  font-style: normal;
+  color: hsl(325, 50%, 50%);
+}
+
+
 a:hover {
   color: hsl(325, 50%, 50%);
 }
@@ -105,10 +127,12 @@ main {
   margin-top: 180px;
 }
 
+/*
 .header-some {
   background-color: black;
   padding-top: 40px;
 }
+*/
 
 .header {
   margin-top: 140px;
@@ -133,7 +157,9 @@ h1 {
 .news {
   text-align: center;
   background-color: black;
-  padding-bottom: 80px;
+  margin-bottom: 60px;
+  padding-top: 70px;
+  padding-bottom: 75px;
 }
 
 .news a {
@@ -141,7 +167,8 @@ h1 {
   border-radius: 3px;
   color: #004E89;
   color: rgb(30, 94, 244);*/
-  color: hsl(240, 100%, 80%);
+  /*color: hsl(240, 100%, 80%);*/
+  color: hsl(325, 50%, 50%);
   font-size: 18px;
   font-weight: 300;
   display: inline-block;
@@ -169,7 +196,7 @@ h1 {
 h2 {
   color: rgb(167, 249, 2);
   font-family: papyrus;
-  font-size: 2em;
+  font-size: 2.4em;
   letter-spacing: 1px;
   text-align: center;
   /*background-color: rgb(4, 146, 146);*/
@@ -256,6 +283,7 @@ footer img {
 #art-gallery {
   position: relative;
   text-align: center;
+  margin-top: 60px;
   margin-bottom: 60px;
 
 }
@@ -279,7 +307,8 @@ footer img {
 #music-gallery {
   position: relative;
   text-align: center;
-  margin-bottom: 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .music {
@@ -309,7 +338,8 @@ footer img {
 .video-gallery {
   display: flex;
   justify-content: center;
-  margin-bottom: 240px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .video-gallery video {
