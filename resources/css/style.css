@@ -52,6 +52,7 @@ body {
   /*color: maroon;*/
   color: hsl(325, 50%, 50%);
   font-size: 36px;
+  font-style: italic;
 }
 
 a:hover {
@@ -156,7 +157,7 @@ h1 {
 
 h2 {
   color: rgb(167, 249, 2);
-  font-family: fantasy;
+  font-family: papyrus;
   font-size: 2em;
   letter-spacing: 1px;
   text-align: center;
@@ -225,6 +226,7 @@ footer {
 footer figcaption {
   color: gray;
   font-size: 18px;
+  font-style: italic;
 }
 
 /*
