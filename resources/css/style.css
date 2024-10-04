@@ -192,31 +192,13 @@ h1 {
   color: rgb(167, 249, 2);
 }
 
-#fugu, #logic, #runaway {
+#fugu, #logic, #runaway, #main-furo {
   margin-top: 60px;
   margin-bottom: 60px;
 } 
 
 h2 {
   color: rgb(167, 249, 2);
-  text-align: center;
-  /*font-family: papyrus;*/
-  font-family: "Padyakke Expanded One";
-  font-size: 2.4em;
-  /*letter-spacing: 1px;*/
-  /*background-color: #05A8AA;*/
-  font-weight: bolder;
-}
-
-#main-furo {
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
-
-h3 {
-  /*color: rgb(167, 249, 2);*/
-  /*color: #05A8AA;*/
-  color: maroon;
   text-align: center;
   /*font-family: papyrus;*/
   font-family: "Padyakke Expanded One";
