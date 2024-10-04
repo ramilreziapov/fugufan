@@ -213,9 +213,10 @@ h2 {
   margin-bottom: 60px;
 }
 
-#main-furo h3 {
+h3 {
   /*color: rgb(167, 249, 2);*/
-  color: #05A8AA;
+  /*color: #05A8AA;*/
+  color: maroon;
   text-align: center;
   /*font-family: papyrus;*/
   font-family: "Padyakke Expanded One";
