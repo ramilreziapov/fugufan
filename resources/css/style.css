@@ -87,17 +87,10 @@ a:hover {
   color: hsl(325, 50%, 50%);
 }
 
-.attention {
+.attention, .attention-furo {
   display: flex;
   justify-content: center;
   margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-.attention-furo {
-  display: flex;
-  justify-content: center;
-  margin-top: 0;
   margin-bottom: 20px;
 }
 
@@ -215,6 +208,17 @@ h2 {
   font-weight: bolder;
 }
 
+#main-furo h2{
+  color: rgb(167, 249, 2);
+  text-align: center;
+  /*font-family: papyrus;*/
+  font-family: "Padyakke Expanded One";
+  font-size: 2.4em;
+  /*letter-spacing: 1px;*/
+  /*background-color: #05A8AA;*/
+  font-weight: bolder;
+}
+
 p, li {
   /*color: rgb(4, 146, 146);*/
   color: #05A8AA;
@@ -231,7 +235,7 @@ p, li {
   color: rgb(167, 249, 2);
   margin: 10px 10px 10px 30px;
   text-align: center;
-  width:fit-content;
+  width: 80px;
   padding: 1px 5px 1px 5px;
   border: 0.5px solid rgb(167, 249, 2);
   border-radius: 25%;
