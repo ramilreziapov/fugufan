@@ -192,10 +192,10 @@ h1 {
   color: rgb(167, 249, 2);
 }
 
-#fugu, #logic, #runaway, #main-furo {
+#fugu, #logic, #runaway {
   margin-top: 60px;
   margin-bottom: 60px;
-}
+} 
 
 h2 {
   color: rgb(167, 249, 2);
@@ -208,8 +208,14 @@ h2 {
   font-weight: bolder;
 }
 
-#main-furo h2{
-  color: rgb(167, 249, 2);
+#main-furo {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+#main-furo h3 {
+  /*color: rgb(167, 249, 2);*/
+  color: #05A8AA;
   text-align: center;
   /*font-family: papyrus;*/
   font-family: "Padyakke Expanded One";
