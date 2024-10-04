@@ -97,11 +97,11 @@ a:hover {
 .attention-furo {
   display: flex;
   justify-content: center;
-  margin-top: 5px;
+  margin-top: 0;
   margin-bottom: 20px;
 }
 
-.attention em {
+.attention em, .attention-furo em {
   color: gray;
   font-size: 16px;
   text-align: center;
@@ -341,9 +341,15 @@ footer figcaption {
 
 .p-music {
   position: relative;
-  color: #05A8AA;
+  /*color: #05A8AA;*/
+  /*color: hsl(325, 50%, 50%);*/
+  color: hsl(220, 40%, 50%);
+  /*color: hsl(240, 100%, 80%);*/
   font-size: 18px;
   margin: 0 auto;
+  font-style: normal;
+  text-align: center;
+  padding-bottom: 5px;
 }
 
 /* Video */
