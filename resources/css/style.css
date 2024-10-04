@@ -94,13 +94,22 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.attention-furo {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
 .attention em {
   color: gray;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   width:fit-content;
   border-bottom: 0.5px dotted gray;
   padding: 2px;
+  font-family: Helvetica;
+  font-weight: lighter;
 }
 
 .banner {
@@ -139,11 +148,13 @@ main {
   margin-bottom: 140px;
 }
 
+/*
 .header-furo {
   background-color: black;
   padding-top: 80px;
   padding-bottom: 80px;
 }
+*/
 
 h1 {
   /*color: maroon;*/
@@ -178,33 +189,30 @@ h1 {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  border-bottom: 0.5px dotted gray;
+  border-bottom: 0.5px dotted hsl(325, 50%, 50%);
   font-family: Gruppo;
   word-spacing: 2px;
   font-weight: bolder;
 }
 
 .news a:hover {
-  color: lemonchiffon;
+  color: rgb(167, 249, 2);
 }
 
-#fugu, #logic, #runaway {
+#fugu, #logic, #runaway, #main-furo {
   margin-top: 60px;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
 h2 {
   color: rgb(167, 249, 2);
-  font-family: papyrus;
-  font-size: 2.4em;
-  letter-spacing: 1px;
   text-align: center;
-  /*background-color: rgb(4, 146, 146);*/
-  background-color: #05A8AA;
-  font-weight: bold;
-  padding: 8px;
-  border: 1px solid rgb(167, 249, 2);
-  border-radius: 50%;
+  /*font-family: papyrus;*/
+  font-family: "Padyakke Expanded One";
+  font-size: 2.4em;
+  /*letter-spacing: 1px;*/
+  /*background-color: #05A8AA;*/
+  font-weight: bolder;
 }
 
 p, li {
@@ -214,9 +222,12 @@ p, li {
   font-size: 18px;
   margin-left: 10px;
   margin-right: 10px;
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-style: italic;
 }
 
-#ai p{
+#ai p {
   color: rgb(167, 249, 2);
   margin: 10px 10px 10px 30px;
   text-align: center;
@@ -225,6 +236,8 @@ p, li {
   border: 0.5px solid rgb(167, 249, 2);
   border-radius: 25%;
   letter-spacing: 1px;
+  font-family: serif;
+  font-style: normal;
 }
 
 .news-image {
@@ -241,10 +254,21 @@ p, li {
   margin: 5px;
 }
 
+/*
+.ul-music {
+  margin-bottom: 60px;
+}
+*/
+
 .ul-music li, .ul-music a {
-  color: rgb(126, 2, 249);
+  /*color: rgb(126, 2, 249);*/
+  color: hsl(240, 100%, 80%);
   font-size: 18px;
   text-decoration: none;
+}
+
+.ul-music a:hover {
+  color: hsl(325, 50%, 50%);
 }
 
 .brake {
@@ -266,17 +290,6 @@ footer figcaption {
   font-size: 18px;
   font-style: italic;
 }
-
-/*
-footer img {
-  display: flex;
-  float: right;
-  height: 70px;
-  width: 65px;
-  padding: 10px;
-  margin-top: 5px;
-}
-*/
 
 /* ART */ 
 
@@ -308,7 +321,7 @@ footer img {
   position: relative;
   text-align: center;
   margin-top: 60px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .music {
