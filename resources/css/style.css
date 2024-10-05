@@ -11,9 +11,16 @@
 }
 */
 
+@font-face {
+  font-family: "Padyakke";
+  src: url(../fonts/PadyakkeExpandedOne-Regular.ttf) format("truetype");
+}
+
 * {
   box-sizing: border-box;
 }
+
+
 
 /* SOMETHING INTERESTING */
 
@@ -91,7 +98,7 @@ a:hover {
   display: flex;
   justify-content: center;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 
 .attention em, .attention-furo em {
@@ -193,7 +200,7 @@ h1 {
 }
 
 .news a:hover {
-  color: rgb(167, 249, 2);
+  color: rgb(167, 249, 2);§
 }
 
 #fugu, #logic, #runaway, #main-furo {
@@ -206,8 +213,8 @@ h2 {
   text-align: center;
   /*font-family: papyrus;*/
   /*font-family: "Padyakke Expanded One";*/
-  font-family: alexa-std;
-  font-size: 2.4em;
+  font-family: "Padyakke";
+  font-size: 48px;
   /*letter-spacing: 1px;*/
   /*background-color: #05A8AA;*/
   font-weight: normal;
@@ -421,6 +428,8 @@ section {
     background-image: url(../images/furo_1_logo_back.png);
   }
 }
+
+
 
 /* FuRo without banner animation */
 
