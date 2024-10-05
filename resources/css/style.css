@@ -127,7 +127,8 @@ a:hover {
   background-position: center;
   height: 320px;
   position: relative;
-  /*margin-top: 80px;*/
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .banner-logo {
@@ -143,6 +144,7 @@ main {
   background-color: #141E30;
   width: 1260px;
   margin-top: 180px;
+
 }
 
 /*
@@ -310,8 +312,8 @@ footer figcaption {
 #art-gallery {
   position: relative;
   text-align: center;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 
 }
 
@@ -334,8 +336,8 @@ footer figcaption {
 #music-gallery {
   position: relative;
   text-align: center;
-  margin-top: 60px;
-  margin-bottom: 40px;
+  margin-top: 80px;
+  margin-bottom: 60px;
 }
 
 .music {
@@ -368,8 +370,8 @@ footer figcaption {
 .video-gallery {
   display: flex;
   justify-content: center;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .video-gallery video {
@@ -384,8 +386,8 @@ footer figcaption {
 
 section {
   unicode-bidi: isolate;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 #anime {
