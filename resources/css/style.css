@@ -96,13 +96,17 @@ a:hover {
 
 .attention em, .attention-furo em {
   color: gray;
-  font-size: 16px;
+  font-size: 22px;
   text-align: center;
   width:fit-content;
   border-bottom: 0.5px dotted gray;
   padding: 2px;
+  font-family: alexa-std;
+  letter-spacing: 0.5px;
+  /*
   font-family: Helvetica;
   font-weight: lighter;
+  */
 }
 
 .banner {
@@ -201,11 +205,12 @@ h2 {
   color: rgb(167, 249, 2);
   text-align: center;
   /*font-family: papyrus;*/
-  font-family: "Padyakke Expanded One";
+  /*font-family: "Padyakke Expanded One";*/
+  font-family: alexa-std;
   font-size: 2.4em;
   /*letter-spacing: 1px;*/
   /*background-color: #05A8AA;*/
-  font-weight: bolder;
+  font-weight: normal;
 }
 
 p, li {
