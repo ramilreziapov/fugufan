@@ -12,8 +12,13 @@
 */
 
 @font-face {
-  font-family: "Padyakke";
+  font-family: Padyakke;
   src: url(../fonts/PadyakkeExpandedOne-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Gruppo;
+  src: url(../fonts/Gruppo-Regular.ttf) format("truetype");
 }
 
 * {
@@ -102,7 +107,7 @@ a:hover {
 }
 
 .attention em, .attention-furo em {
-  color: gray;
+  color: rgb(140, 140, 140);
   font-size: 22.5px;
   text-align: center;
   width:fit-content;
@@ -213,7 +218,7 @@ h2 {
   text-align: center;
   /*font-family: papyrus;*/
   /*font-family: "Padyakke Expanded One";*/
-  font-family: "Padyakke";
+  font-family: Padyakke;
   font-size: 48px;
   /*letter-spacing: 1px;*/
   /*background-color: #05A8AA;*/
@@ -223,13 +228,17 @@ h2 {
 p, li {
   /*color: rgb(4, 146, 146);*/
   color: #05A8AA;
-  line-height: 1.3em;
-  font-size: 18px;
+  line-height: 26px;
+  font-size: 17px;
   margin-left: 10px;
   margin-right: 10px;
-  font-family: Helvetica;
+  /*font-family: Helvetica;
   font-weight: lighter;
-  font-style: italic;
+  font-style: italic;*/
+
+  font-family: acumin-pro;
+  font-weight: 200;
+  font-style: normal;
 }
 
 #ai p {
@@ -268,7 +277,7 @@ p, li {
 .ul-music li, .ul-music a {
   /*color: rgb(126, 2, 249);*/
   color: hsl(240, 100%, 80%);
-  font-size: 18px;
+  font-size: 17px;
   text-decoration: none;
 }
 
@@ -291,7 +300,7 @@ footer {
 }
 
 footer figcaption {
-  color: gray;
+  color: rgb(140, 140, 140);
   font-size: 18px;
   font-style: italic;
 }
@@ -346,15 +355,12 @@ footer figcaption {
 
 .p-music {
   position: relative;
-  /*color: #05A8AA;*/
-  /*color: hsl(325, 50%, 50%);*/
   color: hsl(220, 40%, 50%);
-  /*color: hsl(240, 100%, 80%);*/
-  font-size: 18px;
+  font-size: 17px;
   margin: 0 auto;
   font-style: normal;
   text-align: center;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 /* Video */
