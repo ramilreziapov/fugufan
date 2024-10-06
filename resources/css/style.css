@@ -421,7 +421,7 @@ section {
 }
 
 .slides {
-  animation-duration: 12s;
+  animation-duration: 10s;
   animation-timing-function: linear;
   animation-delay: 0s;
   animation-iteration-count: infinite;
@@ -439,41 +439,32 @@ section {
   0% {
     background-image: url(../images/anime_slide_1.png);
   }
-  10% {
+  15% {
     background-image: url(../images/anime_slide_1.png);
   }
-  15% {
+  20% {
     background-image: url(../images/anime_slide_2.png);
   }
-  25% {
+  35% {
     background-image: url(../images/anime_slide_2.png);
-  }
-  30% {
-    background-image: url(../images/anime_slide_3.png);
   }
   40% {
     background-image: url(../images/anime_slide_3.png);
   }
-  45% {
-    background-image: url(../images/anime_slide_4.png);
-  }
   55% {
-    background-image: url(../images/anime_slide_4.png);
+    background-image: url(../images/anime_slide_3.png);
   }
   60% {
-    background-image: url(../images/anime_slide_5.png);
-  }
-  70% {
-    background-image: url(../images/anime_slide_5.png);
+    background-image: url(../images/anime_slide_4.png);
   }
   75% {
-    background-image: url(../images/anime_slide_6.png);
+    background-image: url(../images/anime_slide_4.png);
   }
-  85% {
-    background-image: url(../images/anime_slide_6.png);
+  80% {
+    background-image: url(../images/anime_slide_5.png);
   }
-  90% {
-    background-image: url(../images/anime_slide_6.png);
+  95% {
+    background-image: url(../images/anime_slide_5.png);
   }
   100% {
     background-image: url(../images/anime_slide_1.png);
