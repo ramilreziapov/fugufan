@@ -140,6 +140,26 @@ a:hover {
   width: 200px;
 }
 
+
+.furo-logo {
+  background-size: contain;
+  background-position: center;
+
+  position: relative;
+  background-color: black;
+  margin: 0 auto;
+}
+
+
+.orig-logo {
+  position: absolute; /* margin: 0 auto; -horizontally centers an element inside of its parent */
+  top: 320px;
+  left: 240px;
+  transform: translate(-50%, -50%);
+  height: 350px;
+  width: 350px;
+}
+
 main {
   background-color: #141E30;
   width: 1260px;
@@ -391,15 +411,17 @@ section {
 }
 
 #anime {
-  height: 768px;
-  width: 768px;
+ height: 500px;
+  width: 500px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  margin-left: 19.5%;
+  margin-left: 540px;
+  padding: 5px;
+  border: 1px solid hsl(220, 40%, 50%);
 }
 
 .slides {
-  animation-duration: 6s;
+  animation-duration: 12s;
   animation-timing-function: linear;
   animation-delay: 0s;
   animation-iteration-count: infinite;
@@ -415,25 +437,46 @@ section {
 
 @keyframes slider {
   0% {
-    background-image: url(../images/furo_1_logo_back.png);
+    background-image: url(../images/anime_slide_1.png);
+  }
+  10% {
+    background-image: url(../images/anime_slide_1.png);
+  }
+  15% {
+    background-image: url(../images/anime_slide_2.png);
+  }
+  25% {
+    background-image: url(../images/anime_slide_2.png);
   }
   30% {
-    background-image: url(../images/furo_1_logo_back.png);
+    background-image: url(../images/anime_slide_3.png);
   }
-  35% {
-    background-image: url(../images/furo_2_logo_back.png);
+  40% {
+    background-image: url(../images/anime_slide_3.png);
   }
-  65% {
-    background-image: url(../images/furo_2_logo_back.png);
+  45% {
+    background-image: url(../images/anime_slide_4.png);
+  }
+  55% {
+    background-image: url(../images/anime_slide_4.png);
+  }
+  60% {
+    background-image: url(../images/anime_slide_5.png);
   }
   70% {
-    background-image: url(../images/furo_double.jpg);
+    background-image: url(../images/anime_slide_5.png);
+  }
+  75% {
+    background-image: url(../images/anime_slide_6.png);
+  }
+  85% {
+    background-image: url(../images/anime_slide_6.png);
+  }
+  90% {
+    background-image: url(../images/anime_slide_6.png);
   }
   95% {
-    background-image: url(../images/furo_double.jpg);
-  }
-  100% {
-    background-image: url(../images/furo_1_logo_back.png);
+    background-image: url(../images/anime_slide_1.png);
   }
 }
 
