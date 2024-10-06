@@ -153,7 +153,7 @@ a:hover {
 
 .orig-logo {
   position: absolute; /* margin: 0 auto; -horizontally centers an element inside of its parent */
-  top: 320px;
+  top: 360px;
   left: 240px;
   transform: translate(-50%, -50%);
   height: 350px;
@@ -411,17 +411,19 @@ section {
 }
 
 #anime {
- height: 500px;
+  height: 500px;
   width: 500px;
   display: grid;
+  /*grid-template-columns: fit-content(400px) fit-content(400px) repeat(1, 1fr);*/
   grid-template-columns: repeat(1, 1fr);
   margin-left: 540px;
   padding: 5px;
-  border: 1px solid hsl(220, 40%, 50%);
+  /*border: 1px solid hsl(220, 40%, 50%);
+  border-radius: 10px;*/
 }
 
 .slides {
-  animation-duration: 10s;
+  animation-duration: 12s;
   animation-timing-function: linear;
   animation-delay: 0s;
   animation-iteration-count: infinite;
@@ -437,37 +439,43 @@ section {
 
 @keyframes slider {
   0% {
-    background-image: url(../images/anime_slide_1.png);
+    background-image: url(../images/anime_slide_1a.png);
   }
   15% {
-    background-image: url(../images/anime_slide_1.png);
+    background-image: url(../images/anime_slide_1a.png);
   }
-  20% {
-    background-image: url(../images/anime_slide_2.png);
+  16% {
+    background-image: url(../images/anime_slide_2a.png);
   }
-  35% {
-    background-image: url(../images/anime_slide_2.png);
+  31% {
+    background-image: url(../images/anime_slide_2a.png);
   }
-  40% {
-    background-image: url(../images/anime_slide_3.png);
+  32% {
+    background-image: url(../images/anime_slide_3a.png);
   }
-  55% {
-    background-image: url(../images/anime_slide_3.png);
+  47% {
+    background-image: url(../images/anime_slide_3a.png);
   }
-  60% {
-    background-image: url(../images/anime_slide_4.png);
+  48% {
+    background-image: url(../images/anime_slide_4a.png);
   }
-  75% {
-    background-image: url(../images/anime_slide_4.png);
+  63% {
+    background-image: url(../images/anime_slide_4a.png);
+  }
+  64% {
+    background-image: url(../images/anime_slide_5a.png);
+  }
+  79% {
+    background-image: url(../images/anime_slide_5a.png);
   }
   80% {
-    background-image: url(../images/anime_slide_5.png);
+    background-image: url(../images/anime_slide_6a.png);
   }
-  95% {
-    background-image: url(../images/anime_slide_5.png);
+  99% {
+    background-image: url(../images/anime_slide_6a.png);
   }
   100% {
-    background-image: url(../images/anime_slide_1.png);
+    background-image: url(../images/anime_slide_1a.png);
   }
 }
 
