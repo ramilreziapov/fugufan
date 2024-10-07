@@ -153,8 +153,8 @@ a:hover {
 
 .orig-logo {
   position: absolute; /* margin: 0 auto; -horizontally centers an element inside of its parent */
-  top: 570px;
-  left: 160px;
+  top: 560px;
+  left: 220px;
   transform: translate(-50%, -50%);
   height: 350px;
   width: 350px;
@@ -402,16 +402,21 @@ footer figcaption {
   border: 1px solid hsl(220, 40%, 50%);
 }
 
-/* FuRo Slider */
 
+
+/* FuRo Slider */ /* Gemini */
+
+/*
 .slider {
-  /*width: 100%;*/
+  width: 100%;
   overflow: hidden;
   position: relative;
   margin-top: 60px;
   margin-bottom: 60px;
 }
+*/
 
+/*
 .slides {
   display: flex;
   animation: slide 16s infinite linear;
@@ -429,9 +434,9 @@ footer figcaption {
   animation-range-start: normal;
   animation-range-end: normal;
   background-repeat: no-repeat;
-  */
-}
+} */
 
+/*
 .slides li {
   flex: 0 0 auto;
 }
@@ -442,7 +447,7 @@ footer figcaption {
   /*
   width: 100%;
   height: auto;
-  */
+
   object-fit: cover;
 }
 
@@ -453,9 +458,10 @@ footer figcaption {
   100% {
     transform: translateX(-100%);
   }
-}
+}*/
 
-/* FuRo with banner animation */
+
+/* FuRo with banner animation 1 */
 
  /*
 section {
@@ -532,6 +538,92 @@ section {
   }
 }
 */
+
+/* FuRo with banner animation 2 */
+
+ 
+.grid-container {
+  unicode-bidi: isolate;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px; /* ? */
+}
+
+.grid-item {
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  background-position: center;
+  margin-left: 540px;
+  padding: 5px;
+  border: 1px solid hsl(220, 40%, 50%);
+  border-radius: 10px;
+  animation-duration: 14s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: slider;
+  animation-timeline: auto;
+  animation-range-start: normal;
+  animation-range-end: normal;
+  background-repeat: no-repeat;
+}
+
+@keyframes slider {
+  0% {
+    background-image: url(../images/anime_orig_1.png);
+  }
+  11% {
+    background-image: url(../images/anime_orig_1.png);
+  }
+  12% {
+    background-image: url(../images/anime_orig_2.png);
+  }
+  23% {
+    background-image: url(../images/anime_orig_2.png);
+  }
+  24% {
+    background-image: url(../images/anime_orig_3.png);
+  }
+  35% {
+    background-image: url(../images/anime_orig_3.png);
+  }
+  36% {
+    background-image: url(../images/anime_orig_4.png);
+  }
+  47% {
+    background-image: url(../images/anime_orig_4.png);
+  }
+  48% {
+    background-image: url(../images/anime_orig_5.png);
+  }
+  59% {
+    background-image: url(../images/anime_orig_5.png);
+  }
+  60% {
+    background-image: url(../images/anime_orig_6.png);
+  }
+  73% {
+    background-image: url(../images/anime_orig_6.png);
+  }
+  74% {
+    background-image: url(../images/anime_orig_7.png);  
+  }
+  88% {
+    background-image: url(../images/anime_orig_7.png);
+  }
+  89% {
+    background-image: url(../images/anime_orig_8.png);
+  }
+  100% {
+    background-image: url(../images/anime_orig_8.png);
+  }
+}
 
 /* FuRo without banner animation */
 
