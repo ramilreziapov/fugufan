@@ -107,7 +107,8 @@ a:hover {
 }
 
 .attention em, .attention-furo em {
-  color: rgb(140, 140, 140);
+  /*color: rgb(140, 140, 140);*/
+  color: rgb(252, 144, 144);
   font-size: 22.5px;
   text-align: center;
   width:fit-content;
@@ -155,6 +156,15 @@ a:hover {
   position: absolute; /* margin: 0 auto; -horizontally centers an element inside of its parent */
   top: 560px;
   left: 220px;
+  transform: translate(-50%, -50%);
+  height: 350px;
+  width: 350px;
+}
+
+.orig-logo-friend {
+  position: absolute; /* margin: 0 auto; -horizontally centers an element inside of its parent */
+  top: 560px;
+  right: -130px;
   transform: translate(-50%, -50%);
   height: 350px;
   width: 350px;
@@ -315,6 +325,22 @@ p, li {
   padding-top: 20px;
 }
 
+.brake-furo {
+  height: 120px;
+  background-color: black;
+  text-align: center;
+  font-size: 72px;
+  padding-top: 20px;
+}
+
+.brake-furo spam {
+  color: hsl(240, 100%, 80%);
+  font-size: 36px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: Gruppo;
+}
+
 footer {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -322,7 +348,9 @@ footer {
 }
 
 footer figcaption {
-  color: rgb(140, 140, 140);
+  /*color: rgb(140, 140, 140);*/
+  /*color: rgb(252, 144, 144);*/
+  color: hsl(325, 50%, 50%);
   font-size: 18px;
   font-style: italic;
 }
@@ -556,7 +584,7 @@ section {
   width: 400px;
   background-size: cover;
   background-position: center;
-  margin-left: 540px;
+  margin-left: 430px;
   padding: 5px;
   border: 1px solid hsl(220, 40%, 50%);
   border-radius: 10px;
@@ -617,6 +645,18 @@ section {
   100% {
     background-image: url(../images/anime_orig_8_back.png);
   }
+}
+
+.span-furo {
+  /*color: rgb(140, 140, 140);*/
+  color: red;
+  font-size: 36px;
+  text-align: center;
+  font-family: alexa-std;
+  letter-spacing: 1px;
+  font-style: italic;
+  margin-top: -40px;
+  margin-bottom: 60px;
 }
 
 /* FuRo without banner animation */
