@@ -560,7 +560,7 @@ section {
   padding: 5px;
   border: 1px solid hsl(220, 40%, 50%);
   border-radius: 10px;
-  animation-duration: 14s;
+  animation-duration: 16s;
   animation-timing-function: linear;
   animation-delay: 0s;
   animation-iteration-count: infinite;
@@ -576,52 +576,46 @@ section {
 
 @keyframes slider {
   0% {
-    background-image: url(../images/anime_orig_1.png);
-  }
-  11% {
-    background-image: url(../images/anime_orig_1.png);
-  }
-  12% {
     background-image: url(../images/anime_orig_2.png);
   }
-  23% {
+  13% {
     background-image: url(../images/anime_orig_2.png);
   }
-  24% {
+  14% {
     background-image: url(../images/anime_orig_3.png);
   }
-  35% {
+  27% {
     background-image: url(../images/anime_orig_3.png);
   }
-  36% {
-    background-image: url(../images/anime_orig_4.png);
+  28% {
+    background-image: url(../images/anime_orig_4_back.png);
   }
-  47% {
-    background-image: url(../images/anime_orig_4.png);
+  41% {
+    background-image: url(../images/anime_orig_4_back.png);
   }
-  48% {
+  42% {
     background-image: url(../images/anime_orig_5.png);
   }
-  59% {
+  55% {
     background-image: url(../images/anime_orig_5.png);
   }
-  60% {
+  56% {
     background-image: url(../images/anime_orig_6.png);
   }
-  73% {
+  69% {
     background-image: url(../images/anime_orig_6.png);
   }
-  74% {
+  70% {
     background-image: url(../images/anime_orig_7.png);  
   }
-  88% {
+  86% {
     background-image: url(../images/anime_orig_7.png);
   }
-  89% {
-    background-image: url(../images/anime_orig_8.png);
+  87% {
+    background-image: url(../images/anime_orig_8_back.png);
   }
   100% {
-    background-image: url(../images/anime_orig_8.png);
+    background-image: url(../images/anime_orig_8_back.png);
   }
 }
 
