@@ -154,8 +154,8 @@ a:hover {
 
 .orig-logo {
   position: absolute; /* margin: 0 auto; -horizontally centers an element inside of its parent */
-  top: 560px;
-  left: 220px;
+  top: 400px;
+  left: 200px;
   transform: translate(-50%, -50%);
   height: 350px;
   width: 350px;
@@ -163,8 +163,8 @@ a:hover {
 
 .orig-logo-friend {
   position: absolute; /* margin: 0 auto; -horizontally centers an element inside of its parent */
-  top: 560px;
-  right: -130px;
+  top: 240px;
+  right: -140px;
   transform: translate(-50%, -50%);
   height: 350px;
   width: 350px;
@@ -352,6 +352,7 @@ p, li {
   padding-top: 20px;
 }
 
+/*
 .brake-furo {
   height: 120px;
   background-color: black;
@@ -366,6 +367,30 @@ p, li {
   padding-left: 40px;
   padding-right: 40px;
   font-family: Gruppo;
+}
+ */ 
+
+.friend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flat-furo {
+  font-family: Gruppo;
+  height: 45px;
+  width: 300px;
+  cursor: pointer;
+  font-size: 36px;
+  color: hsl(240, 100%, 80%);
+  /*margin-top: 40px;*/
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border: 1px solid hsl(240, 100%, 80%);
+  border-radius: 10px;
 }
 
 footer {
@@ -600,7 +625,7 @@ section {
 .grid-container {
   unicode-bidi: isolate;
   margin-top: 80px;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 10px; /* ? */
@@ -655,10 +680,10 @@ section {
     background-image: url(../images/anime_orig_5.png);
   }
   56% {
-    background-image: url(../images/anime_orig_6.png);
+    background-image: url(../images/anime_orig_6_back.png);
   }
   69% {
-    background-image: url(../images/anime_orig_6.png);
+    background-image: url(../images/anime_orig_6_back.png);
   }
   70% {
     background-image: url(../images/anime_orig_7.png);  
@@ -667,10 +692,10 @@ section {
     background-image: url(../images/anime_orig_7.png);
   }
   87% {
-    background-image: url(../images/anime_orig_8_back.png);
+    background-image: url(../images/anime_orig_8.png);
   }
   100% {
-    background-image: url(../images/anime_orig_8_back.png);
+    background-image: url(../images/anime_orig_8.png);
   }
 }
 
