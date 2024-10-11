@@ -352,24 +352,6 @@ p, li {
   padding-top: 20px;
 }
 
-/*
-.brake-furo {
-  height: 120px;
-  background-color: black;
-  text-align: center;
-  font-size: 72px;
-  padding-top: 20px;
-}
-
-.brake-furo spam {
-  color: hsl(240, 100%, 80%);
-  font-size: 36px;
-  padding-left: 40px;
-  padding-right: 40px;
-  font-family: Gruppo;
-}
- */ 
-
 .friend {
   display: flex;
   justify-content: center;
@@ -378,10 +360,10 @@ p, li {
 
 .flat-furo {
   font-family: Gruppo;
-  height: 45px;
-  width: 300px;
+  height: 40px;
+  width: fit-content;
   cursor: pointer;
-  font-size: 36px;
+  font-size: 30px;
   color: hsl(240, 100%, 80%);
   /*margin-top: 40px;*/
   margin-bottom: 80px;
@@ -391,6 +373,18 @@ p, li {
   background-color: black;
   border: 1px solid hsl(240, 100%, 80%);
   border-radius: 10px;
+}
+
+.flat-furo:hover {
+  /*background-color: rgb(57, 56, 56);*/
+  transition: background-color .15s;
+  font-size: .15s;
+  font-size: 36px;
+}
+
+.flat-furo:active {
+  border-color: #141E30;
+  font-size: 30px;
 }
 
 footer {
