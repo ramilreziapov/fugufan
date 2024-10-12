@@ -409,6 +409,7 @@ footer figcaption {
 
 }
 
+/*
 .p-music {
   position: relative;
   color: hsl(220, 40%, 50%);
@@ -417,6 +418,22 @@ footer figcaption {
   font-style: normal;
   text-align: center;
   padding-bottom: 10px;
+}
+*/
+
+.p-music {
+  color: gray;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-family: serif;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.span-music {
+  font-family: sans-serif;
+  padding-left: 2px;
 }
 
 /* Video */
