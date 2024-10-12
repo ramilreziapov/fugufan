@@ -154,7 +154,7 @@ a:hover {
 
 .orig-logo {
   position: absolute; /* margin: 0 auto; -horizontally centers an element inside of its parent */
-  top: 400px;
+  top: 300px;
   left: 200px;
   transform: translate(-50%, -50%);
   height: 350px;
@@ -172,7 +172,7 @@ a:hover {
 
 .orig-logo-friend {
   position: absolute; /* margin: 0 auto; -horizontally centers an element inside of its parent */
-  top: 240px;
+  top: 280px;
   right: -140px;
   transform: translate(-50%, -50%);
   height: 350px;
