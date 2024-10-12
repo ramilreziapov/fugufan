@@ -154,7 +154,7 @@ a:hover {
 
 .orig-logo {
   position: absolute; /* margin: 0 auto; -horizontally centers an element inside of its parent */
-  top: 300px;
+  top: 320px;
   left: 200px;
   transform: translate(-50%, -50%);
   height: 350px;
@@ -172,7 +172,7 @@ a:hover {
 
 .orig-logo-friend {
   position: absolute; /* margin: 0 auto; -horizontally centers an element inside of its parent */
-  top: 280px;
+  top: 250px;
   right: -140px;
   transform: translate(-50%, -50%);
   height: 350px;
@@ -284,10 +284,13 @@ p, li {
 }
 
 .news-image-box .caption {
-  color: rgb(252, 144, 144);
+  /*color: rgb(252, 144, 144);*/
+  color: gray;
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  font-family: serif;
+  font-size: 15px;
 }
 
 .ul-music li, .ul-music a {
