@@ -107,7 +107,7 @@ a:hover {
 }
 
 .attention em, .attention-furo em {
-  color: rgb(140, 140, 140);
+  color: rgb(162, 161, 161);
   /*color: rgb(252, 144, 144);*/
   font-size: 22.5px;
   text-align: center;
@@ -231,7 +231,9 @@ h2 {
 
 p, li {
   /*color: rgb(4, 146, 146);*/
-  color: #05A8AA;
+  /*color: #02dada;*/
+  /*color: #01bbbb;*/
+  color: #01caca;
   line-height: 26px;
   font-size: 17px;
   margin-left: 10px;
@@ -249,13 +251,14 @@ p, li {
   color: rgb(167, 249, 2);
   margin: 10px 10px 10px 30px;
   text-align: center;
-  width: 80px;
-  padding: 1px 5px 1px 5px;
+  width: 40px;
+  height: 40px;
   border: 0.5px solid rgb(167, 249, 2);
-  border-radius: 25%;
+  border-radius: 50%;
   letter-spacing: 1px;
   font-family: serif;
   font-style: normal;
+  padding-top: 5px;
 }
 
 
@@ -268,7 +271,7 @@ p, li {
 .news-image-box {
   height: 450px;
   width: 400px;
-  border: 1px solid hsl(220, 40%, 50%);
+  /*border: 1px solid hsl(220, 40%, 50%);*/
   padding: 5px;
   margin: 5px;
 }
@@ -276,6 +279,10 @@ p, li {
 .news-image-box .news-image-container {
   overflow: hidden;
   margin-bottom: 10px;
+}
+
+.news-image-container {
+  border-radius: 5%;
 }
 
 .news-image-box .news-image-container img {
@@ -399,7 +406,7 @@ footer figcaption {
   height: fit-content;
   width: fit-content;
   margin: 5px 5px 20px 5px;
-  border: 1px solid hsl(220, 40%, 50%);
+  /*border: 1px solid hsl(220, 40%, 50%);*/
 }
 
 .music video {
