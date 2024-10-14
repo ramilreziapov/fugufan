@@ -243,7 +243,8 @@ p, li {
   font-weight: lighter;
   font-style: italic;*/
 
-  font-family: acumin-pro;
+  /*font-family: acumin-pro;*/
+  font-family: Lato;
   font-weight: 200;
   font-style: normal;
 }
@@ -303,6 +304,7 @@ p, li {
   justify-content: center;
   margin: 0 auto;
   font-family: serif;
+  /*font-family: Lato;*/
   font-size: 15px;
 }
 
@@ -421,18 +423,6 @@ footer figcaption {
   padding: 5px;
 
 }
-
-/*
-.p-music {
-  position: relative;
-  color: hsl(220, 40%, 50%);
-  font-size: 17px;
-  margin: 0 auto;
-  font-style: normal;
-  text-align: center;
-  padding-bottom: 10px;
-}
-*/
 
 .p-music {
   color: gray;
