@@ -109,6 +109,7 @@ a:hover {
 .attention em, .attention-furo em {
   color: rgb(162, 161, 161);
   /*color: rgb(252, 144, 144);*/
+  /*color: #a9acb6;*/
   font-size: 22.5px;
   text-align: center;
   width:fit-content;
@@ -248,17 +249,21 @@ p, li {
 }
 
 #ai p {
-  color: rgb(167, 249, 2);
-  margin: 10px 10px 10px 30px;
-  text-align: center;
-  width: 40px;
-  height: 40px;
-  border: 0.5px solid rgb(167, 249, 2);
-  border-radius: 50%;
+  /*color: rgb(167, 249, 2);*/
+  color: hsl(325, 50%, 50%);
+  margin: 30px 0 20px 30px;
+  text-align: left;
   letter-spacing: 1px;
-  font-family: serif;
-  font-style: normal;
-  padding-top: 5px;
+  font-family: Padyakke;
+  /*font-family: Gruppo;*/
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.ai-span {
+  border-radius: 50%;
+  border: 0.5px solid rgb(167, 249, 2);
+  padding: 7px 5px 0 5px;
 }
 
 
@@ -292,7 +297,8 @@ p, li {
 
 .news-image-box .caption {
   /*color: rgb(252, 144, 144);*/
-  color: gray;
+  color:gray;
+  /*color: #a9acb6;*/
   display: flex;
   justify-content: center;
   margin: 0 auto;
