@@ -154,9 +154,9 @@ a:hover {
 
 .orig-logo {
   position: absolute; /* margin: 0 auto; -horizontally centers an element inside of its parent */
-  top: 320px;
-  left: 200px;
-  transform: translate(-50%, -50%);
+  top: 160px;
+  left: 40px;
+  /*transform: translate(-50%, -50%);*/
   height: 350px;
   width: 350px;
 }
@@ -164,7 +164,6 @@ a:hover {
 .furo-logo-friend {
   background-size: contain;
   background-position: center;
-
   position: relative;
   background-color: black;
   margin: 0 auto;
@@ -172,9 +171,9 @@ a:hover {
 
 .orig-logo-friend {
   position: absolute; /* margin: 0 auto; -horizontally centers an element inside of its parent */
-  top: 250px;
-  right: -140px;
-  transform: translate(-50%, -50%);
+  top: 70px;
+  left: 870px;
+  /*transform: translate(-50%, -50%);*/
   height: 350px;
   width: 350px;
 }
