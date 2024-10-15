@@ -129,35 +129,27 @@ a:hover {
   background-position: center;
   height: 320px;
   position: relative;
-  /*
-  margin-top: 80px;
-  margin-bottom: 80px;
-  */
-  padding: 10px;
-  box-shadow: 5px 5px 60px 5px aqua;
+  margin: 40px 10px 40px 10px;
+  box-shadow: 1px 1px 80px 10px aqua;
   border-radius: 50%;
-  background-color: black;
 }
 
 .banner-logo {
   position: absolute; /* margin: 0 auto; -horizontally centers an element inside of its parent */
-  top: 2px;
-  right: 320px;
+  top: 20px;
+  right: 180px;
   transform: translate(-50%, -50%);
   height: 200px;
   width: 200px;
 }
 
-
 .furo-logo {
   background-size: contain;
   background-position: center;
-
   position: relative;
   background-color: black;
   margin: 0 auto;
 }
-
 
 .orig-logo {
   position: absolute; /* margin: 0 auto; -horizontally centers an element inside of its parent */
@@ -261,16 +253,22 @@ p, li {
   margin: 30px 0 20px 30px;
   text-align: left;
   letter-spacing: 1px;
+  font-family: alexa-std;
+  font-size: 30px;
+  font-weight: bolder;
+  /*font-family: Gruppo;
   font-family: Padyakke;
-  /*font-family: Gruppo;*/
+  font-family: Gruppo;
   font-size: 24px;
   font-weight: bolder;
+  */
 }
 
 .ai-span {
   border-radius: 50%;
-  border: 0.5px solid rgb(167, 249, 2);
-  padding: 7px 5px 0 5px;
+  border: 1px solid rgb(167, 249, 2);
+  /*padding: 7px 5px 0 5px;*/
+  padding: 5px 8px 4px 5px;
 }
 
 
@@ -329,12 +327,12 @@ p, li {
   height: 120px;
   background-color: black;
   text-align: center;
-  font-size: 72px;
   padding-top: 20px;
 }
 
 .brake p {
-  color: red;
+  color: #01caca;
+ /* color: red;*/
   font-size: 20px;
 }
 
