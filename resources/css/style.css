@@ -129,8 +129,14 @@ a:hover {
   background-position: center;
   height: 320px;
   position: relative;
+  /*
   margin-top: 80px;
   margin-bottom: 80px;
+  */
+  padding: 10px;
+  box-shadow: 5px 5px 60px 5px aqua;
+  border-radius: 50%;
+  background-color: black;
 }
 
 .banner-logo {
@@ -325,6 +331,11 @@ p, li {
   text-align: center;
   font-size: 72px;
   padding-top: 20px;
+}
+
+.brake p {
+  color: red;
+  font-size: 20px;
 }
 
 .friend {
