@@ -131,7 +131,7 @@ a:hover {
   width: 860px;
   position: relative;
   margin: 60px 10px 60px 80px;
-  box-shadow: 1px 1px 60px 5px aqua;
+  box-shadow: 1px 1px 80px -20px aqua;
   border-radius: 50%;
 }
 
