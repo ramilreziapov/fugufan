@@ -171,7 +171,7 @@ a:hover {
 
 .orig-logo-friend {
   position: absolute; /* margin: 0 auto; -horizontally centers an element inside of its parent */
-  top: 70px;
+  top: 160px;
   left: 870px;
   /*transform: translate(-50%, -50%);*/
   height: 350px;
