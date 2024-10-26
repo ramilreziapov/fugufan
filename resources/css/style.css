@@ -720,7 +720,7 @@ section {
 @media only screen and (orientation: portrait) {
   .banner-logo {
     position: relative;
-    left: 70%;
+    left: 300px;
   } 
 }
 
