@@ -23,13 +23,7 @@
 
 @media only screen and (max-width: 850px), (orientation: portrait) {
   .banner-logo {
-    position: relative;
-    margin: 0 auto; /*-horizontally centers an element inside of its parent */
-    /*top: 40px;
-    left: 1000px;
-    transform: translate(-50%, -50%);
-    height: 200px;
-    width: 200px;*/
+    left: 600px;
   } 
 }
 
