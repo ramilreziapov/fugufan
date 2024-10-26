@@ -717,7 +717,7 @@ section {
 } 
 */
 
-@media only screen and (max-width: 860px), (orientation: portrait) {
+@media only screen and (max-width: 860px) {
   .banner-logo {
     position: relative;
     left: 600px;
