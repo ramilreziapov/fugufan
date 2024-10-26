@@ -21,12 +21,6 @@
   src: url(../fonts/Gruppo-Regular.ttf) format("truetype");
 }
 
-@media only screen and (max-width: 850px), (orientation: portrait) {
-  .banner-logo {
-    left: 600px;
-  } 
-}
-
 * {
   box-sizing: border-box;
 }
@@ -722,3 +716,9 @@ section {
   padding-right: 40px;
 } 
 */
+
+@media only screen and (max-width: 850px), (orientation: portrait) {
+  .banner-logo {
+    left: 600px;
+  } 
+}
