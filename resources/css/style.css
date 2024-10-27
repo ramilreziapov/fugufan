@@ -717,11 +717,11 @@ section {
 } 
 */
 
-@media only screen and (orientation: portrait) {
+@media only screen and (max-width: 860px) {
   .banner-logo {
     position: relative;
     left: 300px;
   } 
 }
 
-/*(max-width: 860px)*/
+/*(max-width: 860px) ; (orientation: portrait)*/
