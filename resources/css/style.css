@@ -717,14 +717,19 @@ section {
 } 
 */
 
-@media only screen and (max-width: 1035px) {
-  .banner-logo {
-    position: relative;
-    margin: 0 auto;
-  } 
+@media only screen and (max-width: 1040px) {
   .banner {
     display: flex;
   }
+  .navigation {
+    height: fit-content;
+    width: fit-content;
+  }
+  .banner-logo {
+    position: relative;
+    left: 60%;
+  } 
+
 }
 
 /*(max-width: 860px) ; (orientation: portrait)*/
