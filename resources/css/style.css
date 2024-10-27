@@ -730,7 +730,7 @@ section {
 } 
 */
 
-@media only screen and (max-width: 1070px) {
+@media only screen and (max-width: 1065px) {
   /*#banner-section {
     display: flex;
   }*/
@@ -740,7 +740,11 @@ section {
     position: relative;
     z-index: 0;
   }
-    */
+  */
+
+  .navigation {
+    text-align: center;
+  }
 
   .banner-logo {
     position: relative;
