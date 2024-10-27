@@ -42,11 +42,13 @@ body {
   width: 1260px;
 }
 
+
 .navigation {
   display: flex;
   justify-content: center;
   padding: 30px;
 }
+
 
 .navigation a {
   /*color: rgb(126, 2, 249);*/
@@ -728,45 +730,18 @@ section {
 } 
 */
 
-@media only screen and (max-width: 1040px) {
-  #banner-section {
+@media only screen and (max-width: 1070px) {
+  /*#banner-section {
     display: flex;
-  }
+  }*/
+
+  /*
   #nav-section {
-    display: flex;
-    justify-content: center;
     position: relative;
     z-index: 0;
   }
-/*
-  .attention, .attention-furo {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 22px;
-  }
-*/
-  /*
-  .attention em, .attention-furo em {
-    color: rgb(162, 161, 161);
-    font-size: 22.5px;
-    text-align: center;
-    width:fit-content;
-    border-bottom: 0.5px dotted gray;
-    padding: 2px;
-    font-family: alexa-std;
-    letter-spacing: 0.5px;
-    font-family: Helvetica;
-    font-weight: lighter;
-  }
-  */
-
-  /*
-  .navigation {
-    height: fit-content;
-    width: fit-content;
-  }
     */
+
   .banner-logo {
     position: relative;
     left: 70%;
