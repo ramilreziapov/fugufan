@@ -25,30 +25,27 @@
   box-sizing: border-box;
 }
 
-
-
 /* SOMETHING INTERESTING */
 
 body {
   background-color: black;
-  /*background-color:#141E30;*/
+  /*background-color: #141E30;*/
   display: flex;
   justify-content: center;
   margin: 0 auto;
 }
 
-#nav-div {
-  /*background-color: #466995;*/
-  background-color: black;
+#nav-section {
   position: fixed;
-  width: 100%;
   z-index: 10;
+  background-color: black;
+  width: 1260px;
 }
 
 .navigation {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  padding: 30px;
 }
 
 .navigation a {
@@ -99,28 +96,20 @@ a:hover {
   color: hsl(325, 50%, 50%);
 }
 
-.attention, .attention-furo {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  margin-bottom: 22px;
+
+
+main {
+  /*background-color: #141E30;*/
+  width: 1260px;
+  margin-top: 100px;
+  background-color: black;
 }
 
-.attention em, .attention-furo em {
-  color: rgb(162, 161, 161);
-  /*color: rgb(252, 144, 144);*/
-  /*color: #a9acb6;*/
-  font-size: 22.5px;
-  text-align: center;
-  width:fit-content;
-  border-bottom: 0.5px dotted gray;
-  padding: 2px;
-  font-family: alexa-std;
-  letter-spacing: 0.5px;
-  /*
-  font-family: Helvetica;
-  font-weight: lighter;
-  */
+#banner-section {
+  background-color: #141E30;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
 }
 
 .banner {
@@ -133,6 +122,7 @@ a:hover {
   margin: 60px 10px 60px 80px;
   box-shadow: 1px 1px 80px -20px aqua;
   border-radius: 50%;
+
 }
 
 .banner-logo {
@@ -178,12 +168,45 @@ a:hover {
   width: 350px;
 }
 
-main {
-  background-color: #141E30;
-  width: 1260px;
-  margin-top: 180px;
-
+.brake {
+  height: 120px;
+  background-color: black;
+  text-align: center;
+  padding-top: 30px;
 }
+
+.brake p {
+  color: #01caca;
+ /* color: red;*/
+  font-size: 20px;
+}
+
+.attention, .attention-furo {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.attention p, .attention-furo em {
+  color: hsl(325, 50%, 50%);
+  /*color: rgb(162, 161, 161);*/
+  font-size: 26px;
+  text-align: center;
+  width:fit-content;
+  border-bottom: 0.5px dotted gray;
+  padding: 2px;
+  font-family: alexa-std;
+  letter-spacing: 1px;
+}
+
+
+/*
+.header {
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+*/
 
 /*
 .header-some {
@@ -191,11 +214,6 @@ main {
   padding-top: 40px;
 }
 */
-
-.header {
-  margin-top: 140px;
-  margin-bottom: 140px;
-}
 
 /*
 .header-furo {
@@ -216,8 +234,11 @@ h1 {
 
 
 #fugu, #logic, #runaway, #main-furo {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  background-color: #141E30;
+  /*margin-top: 60px;
+  margin-bottom: 60px;*/
+  padding: 20px 40px 40px 40px;
+  border-radius: 10px;
 } 
 
 h2 {
@@ -323,18 +344,7 @@ p, li {
   color: hsl(325, 50%, 50%);
 }
 
-.brake {
-  height: 120px;
-  background-color: black;
-  text-align: center;
-  padding-top: 20px;
-}
 
-.brake p {
-  color: #01caca;
- /* color: red;*/
-  font-size: 20px;
-}
 
 .friend {
   display: flex;
@@ -372,9 +382,9 @@ p, li {
 }
 
 footer {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  background-color: #141E30;
   text-align: center;
+  border-radius: 10px;
 }
 
 footer figcaption {
@@ -383,6 +393,7 @@ footer figcaption {
   color: hsl(325, 50%, 50%);
   font-size: 18px;
   font-style: italic;
+  padding: 60px;
 }
 
 /* ART */ 
