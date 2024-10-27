@@ -40,13 +40,15 @@ body {
   z-index: 10;
   background-color: black;
   width: 1260px;
+  text-align: center;
 }
 
 
 .navigation {
-  display: flex;
-  justify-content: center;
-  padding: 30px;
+  /*display: flex;
+  justify-content: center;*/
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 
@@ -730,7 +732,7 @@ section {
 } 
 */
 
-@media only screen and (max-width: 1065px) {
+@media only screen and (max-width: 1055px) {
   /*#banner-section {
     display: flex;
   }*/
