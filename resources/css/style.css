@@ -728,11 +728,11 @@ section {
 } 
 */
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1060px) {
   .banner {
     display: flex;
   }
-  #nav-div {
+  #nav-section {
     display: flex;
     position: relative;
     z-index: 0;
