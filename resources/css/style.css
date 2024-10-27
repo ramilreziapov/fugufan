@@ -717,7 +717,7 @@ section {
 } 
 */
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1060px) {
   .banner {
     display: flex;
   }
@@ -727,6 +727,29 @@ section {
     width: fit-content;
     z-index: 0;
   }
+
+  .attention, .attention-furo {
+    display: block;
+    /*justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 22px;*/
+  }
+
+  /*
+  .attention em, .attention-furo em {
+    color: rgb(162, 161, 161);
+    font-size: 22.5px;
+    text-align: center;
+    width:fit-content;
+    border-bottom: 0.5px dotted gray;
+    padding: 2px;
+    font-family: alexa-std;
+    letter-spacing: 0.5px;
+    font-family: Helvetica;
+    font-weight: lighter;
+  }
+  */
+
   /*
   .navigation {
     height: fit-content;
