@@ -717,7 +717,7 @@ section {
 } 
 */
 
-@media only screen and (max-width: 1070px) {
+@media only screen and (max-width: 1040px) {
   .banner {
     display: flex;
   }
@@ -726,14 +726,14 @@ section {
     position: relative;
     z-index: 0;
   }
-
+/*
   .attention, .attention-furo {
-    display: block;
-    /*justify-content: center;
+    display: flex;
+    justify-content: center;
     margin-top: 10px;
-    margin-bottom: 22px;*/
+    margin-bottom: 22px;
   }
-
+*/
   /*
   .attention em, .attention-furo em {
     color: rgb(162, 161, 161);
