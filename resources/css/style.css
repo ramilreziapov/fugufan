@@ -5,11 +5,11 @@
 }
 */
 
-
+/*
 * {
   border: 1px solid green;
 }
-
+*/
 
 @font-face {
   font-family: Padyakke;
@@ -187,6 +187,7 @@ main {
   color: #01caca;
  /* color: red;*/
   font-size: 20px;
+  padding-top: 5px;
 }
 
 .attention, .attention-furo {
