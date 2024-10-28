@@ -188,7 +188,8 @@ main {
   margin-right: 30px;
 }
 
-.attention, .attention-furo {
+.attention,
+.attention-furo {
   display: flex;
   justify-content: center;
   margin: 30px;
@@ -196,10 +197,21 @@ main {
   margin-bottom: 30px;*/
 }
 
-.attention p, .attention-furo em {
-  color: hsl(325, 50%, 50%);
-  /*color: rgb(162, 161, 161);*/
-  font-size: 26px;
+.attention-nav {
+  display: flex;
+  justify-content: center;
+  margin: 0px 30px 30px 30px;
+  /*margin-top: 30px;
+  margin-bottom: 30px;*/
+}
+
+.attention p,
+.attention-nav p,
+.attention-furo em {
+  /*color: hsl(240, 100%, 80%);*/
+  /*color: hsl(325, 50%, 50%);*/
+  color: rgb(162, 161, 161);
+  font-size: 24px;
   text-align: center;
   width:fit-content;
   border-bottom: 0.5px dotted gray;
@@ -207,28 +219,11 @@ main {
   letter-spacing: 1px;
 }
 
-
-/*
-.header {
-  margin-top: 140px;
-  margin-bottom: 140px;
+.attention-nav p {
+  margin-top: 2px;
+  border-top: 0.5px dotted hsl(325, 50%, 50%);
+  border-bottom: 0.5px dotted hsl(325, 50%, 50%);
 }
-*/
-
-/*
-.header-some {
-  background-color: black;
-  padding-top: 40px;
-}
-*/
-
-/*
-.header-furo {
-  background-color: black;
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-*/
 
 h1 {
   /*color: maroon;*/
@@ -406,11 +401,12 @@ footer figcaption {
 /* ART */ 
 
 #art-gallery {
+  background-color: #141E30;
   position: relative;
   text-align: center;
-  margin-top: 80px;
-  margin-bottom: 80px;
-
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-radius: 10px;
 }
 
 .art {
