@@ -191,6 +191,8 @@ main {
   justify-content: center;
   margin-top: 30px;
   margin-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .attention p, .attention-furo em {
