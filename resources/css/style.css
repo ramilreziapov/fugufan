@@ -44,7 +44,6 @@ body {
   text-align: center;
 }
 
-
 .navigation {
   /*display: flex;
   justify-content: center;*/
@@ -53,7 +52,6 @@ body {
   width: 1260px;
 
 }
-
 
 .navigation a {
   /*color: rgb(126, 2, 249);*/
@@ -99,12 +97,9 @@ body {
   color: hsl(325, 50%, 50%);
 }
 
-
 a:hover {
   color: hsl(325, 50%, 50%);
 }
-
-
 
 main {
   /*background-color: #141E30;*/
@@ -117,9 +112,9 @@ main {
 
 #banner-section {
   background-color: #141E30;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
   border-radius: 10px;
+  display: flex;
 }
 
 .banner {
@@ -132,7 +127,6 @@ main {
   margin: 60px 10px 60px 80px;
   box-shadow: 1px 1px 80px -20px aqua;
   border-radius: 50%;
-
 }
 
 .banner-logo {
@@ -739,17 +733,7 @@ section {
 } 
 */
 
-@media only screen and (max-width: 1090px) {
-  /*#banner-section {
-    display: flex;
-  }*/
-
-  /*
-  #nav-section {
-    position: relative;
-    z-index: 0;
-  }
-  */
+@media only screen and (max-width: 1070px) {
 
   main {
     margin-top: 136px;
@@ -758,6 +742,10 @@ section {
   .navigation {
     text-align: center;
     width: fit-content;
+  }
+
+  .banner {
+    margin: 0 auto;
   }
 
   .banner-logo {
