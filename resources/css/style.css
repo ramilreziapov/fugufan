@@ -214,14 +214,15 @@ main {
   font-size: 24px;
   text-align: center;
   width:fit-content;
-  border-top: 1px solid hsl(325, 50%, 50%);
-  border-bottom: 1px solid hsl(325, 50%, 50%);
+  border-bottom: 0.5px solid gray;
   font-family: alexa-std;
   letter-spacing: 1px;
 }
 
 .attention-nav p {
-  margin-top: 3px
+  margin-top: 3px;
+  border-top: 1px solid hsl(325, 50%, 50%);
+  border-bottom: 1px solid hsl(325, 50%, 50%);
 }
 
 h1 {
@@ -351,6 +352,7 @@ p, li {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
 
 .flat-furo {
@@ -425,10 +427,14 @@ footer figcaption {
 /* Music */
 
 #music-gallery {
+  background-color: #141E30;
   position: relative;
   text-align: center;
-  margin-top: 80px;
-  margin-bottom: 60px;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  border-radius: 10px;
+  /*margin-top: 80px;
+  margin-bottom: 60px;*/
 }
 
 .music {
@@ -464,10 +470,16 @@ footer figcaption {
 /* Video */
 
 .video-gallery {
-  display: flex;
+  background-color: #141E30;
+  position: relative;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-radius: 10px;
+  /*display: flex;
   justify-content: center;
   margin-top: 80px;
-  margin-bottom: 80px;
+  margin-bottom: 80px;*/
 }
 
 .video-gallery video {
@@ -617,14 +629,17 @@ section {
 
 /* FuRo with banner animation 2 */
 
- 
 .grid-container {
   unicode-bidi: isolate;
-  margin-top: 80px;
-  margin-bottom: 40px;
+  /*margin-top: 80px;*/
+  /*margin-bottom: 40px;*/
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 10px; /* ? */
+  background-color: #141E30;
+  padding-top: 120px;
+  padding-bottom: 30px;
+  border-radius: 10px;
 }
 
 .grid-item {
