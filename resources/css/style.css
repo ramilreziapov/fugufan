@@ -5,11 +5,11 @@
 }
 */
 
-
+/*
 * {
   border: 1px solid green;
 }
-
+*/
 
 @font-face {
   font-family: Padyakke;
@@ -750,7 +750,7 @@ section {
 @media only screen and (max-width: 1070px) {
 
   main {
-    margin-top: 128px;
+    margin-top: 140px; /*128px*/
   }
 
   .navigation {
