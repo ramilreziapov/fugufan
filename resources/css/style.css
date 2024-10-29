@@ -243,6 +243,10 @@ h1 {
   margin-bottom: 60px;*/
   padding: 20px 40px 40px 40px;
   border-radius: 10px;
+
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*margin: 0 auto;*/
 } 
 
 h2 {
@@ -273,7 +277,6 @@ p, li {
 }
 
 #ai p {
-  /*color: rgb(167, 249, 2);*/
   color: hsl(325, 50%, 50%);
   margin: 30px 0 20px 30px;
   text-align: left;
@@ -281,12 +284,6 @@ p, li {
   font-family: alexa-std;
   font-size: 30px;
   font-weight: bolder;
-  /*font-family: Gruppo;
-  font-family: Padyakke;
-  font-family: Gruppo;
-  font-size: 24px;
-  font-weight: bolder;
-  */
 }
 
 .ai-span {
@@ -297,7 +294,6 @@ p, li {
   margin: 5px;
 }
 
-
 .news-image {
   display: flex;
   justify-content: center;
@@ -307,7 +303,6 @@ p, li {
 .news-image-box {
   height: 450px;
   width: 400px;
-  /*border: 1px solid hsl(220, 40%, 50%);*/
   padding: 5px;
   margin: 5px;
 }
@@ -327,19 +322,16 @@ p, li {
 }
 
 .news-image-box .caption {
-  /*color: rgb(252, 144, 144);*/
   color:gray;
-  /*color: #a9acb6;*/
   display: flex;
   justify-content: center;
   margin: 0 auto;
   font-family: serif;
-  /*font-family: Lato;*/
+  letter-spacing: 0.5px;
   font-size: 15px;
 }
 
 .ul-music li, .ul-music a {
-  /*color: rgb(126, 2, 249);*/
   color: hsl(240, 100%, 80%);
   font-size: 17px;
   text-decoration: none;
@@ -348,8 +340,6 @@ p, li {
 .ul-music a:hover {
   color: hsl(325, 50%, 50%);
 }
-
-
 
 .friend {
   display: flex;
@@ -463,6 +453,7 @@ footer figcaption {
   justify-content: center;
   margin: 0 auto;
   font-family: serif;
+  letter-spacing: 0.5px;
   font-size: 15px;
   padding-bottom: 10px;
 }
