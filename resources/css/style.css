@@ -70,9 +70,11 @@ body {
 .navigation .site-name {
   /*color: maroon;*/
   color: hsl(325, 50%, 50%);
-  font-size: 36px;
+  font-size: 40px; /*36px;*/
   font-style: italic;
-  font-family: serif;
+  /*font-family: serif;*/ /*font-weight: normal;*/
+  font-family: alexa-std;
+  letter-spacing: 1px;
   font-weight: normal;
 }
 
@@ -291,7 +293,8 @@ p, li {
   border-radius: 50%;
   border: 1px solid rgb(167, 249, 2);
   /*padding: 7px 5px 0 5px;*/
-  padding: 5px 8px 4px 5px;
+  padding: 5px 12px 5px 10px;
+  margin: 5px;
 }
 
 
@@ -394,7 +397,9 @@ footer figcaption {
   /*color: rgb(140, 140, 140);*/
   /*color: rgb(252, 144, 144);*/
   color: hsl(325, 50%, 50%);
-  font-size: 18px;
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-family: alexa-std;
   font-style: italic;
   padding: 60px;
 }
