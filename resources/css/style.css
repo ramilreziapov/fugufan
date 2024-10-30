@@ -412,13 +412,15 @@ footer figcaption {
 }
 
 .art img {
-  height: 380px;
+  height: 380px; /*240px*/
   width: 380px;
   padding: 5px;
 }
 
 .art .img-wide {
-  width: 600px;
+  height: 200px; /*280px*/
+  width: 380px; /*380px*/
+  padding: 5px;
 }
 
 /* Music */
