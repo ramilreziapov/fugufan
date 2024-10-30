@@ -190,8 +190,7 @@ main {
   margin-right: 30px;
 }
 
-.attention,
-.attention-furo {
+.attention {
   display: flex;
   justify-content: center;
   margin: 30px;
@@ -207,24 +206,28 @@ main {
   margin-bottom: 30px;*/
 }
 
-.attention p,
-.attention-nav p,
-.attention-furo em {
-  /*color: hsl(240, 100%, 80%);*/
-  /*color: hsl(325, 50%, 50%);*/
+.attention p {
   color: rgb(162, 161, 161);
-  font-size: 24px;
+  font-size: 22px;
   text-align: center;
   width:fit-content;
-  border-bottom: 0.5px solid gray;
+  border-bottom: 0.5px dotted gray;
   font-family: alexa-std;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
 }
 
 .attention-nav p {
+  color: rgb(162, 161, 161);
+  font-size: 20px;
+  text-align: center;
+  width:fit-content;
+  font-family: alexa-std;
+  letter-spacing: 1.5px;
   margin-top: 3px;
-  border-top: 1px solid hsl(325, 50%, 50%);
-  border-bottom: 1px solid hsl(325, 50%, 50%);
+  padding: 1px;
+  border: 1px dotted hsl(325, 50%, 50%);
+  border-radius: 5px;
+  /*border-bottom: 1px solid hsl(325, 50%, 50%);*/
 }
 
 h1 {
@@ -391,7 +394,7 @@ footer figcaption {
   letter-spacing: 1px;
   font-family: alexa-std;
   font-style: italic;
-  padding: 60px;
+  padding: 40px;
 }
 
 /* ART */ 
@@ -448,7 +451,6 @@ footer figcaption {
   height: 380px;
   width: 380px;
   padding: 5px;
-
 }
 
 .p-music {
@@ -469,12 +471,12 @@ footer figcaption {
 
 /* Video */
 
-.video-gallery {
+#video-gallery {
   background-color: #141E30;
   position: relative;
   text-align: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 70px;
+  padding-bottom: 60px;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 10px;
@@ -482,16 +484,35 @@ footer figcaption {
   /*justify-content: center;*/
   /*margin-top: 80px;
   margin-bottom: 80px;*/
-  max-width: 1260px;
-  min-width: 400px;
+  /*max-width: 1260px;*/
+  /*min-width: 400px;*/
 }
 
-.video-gallery video {
+.video-div {
+  display:inline-block;
+  /*height: fit-content;
+  width: fit-content;*/
+  /*margin: 5px 5px 20px 5px;*/
+  /*border: 1px solid hsl(220, 40%, 50%);*/
+}
+
+.video-div video {
   height: 240px;
   width: 380px;
   padding: 5px;
-  margin: 5px;
-  border: 1px solid hsl(220, 40%, 50%);
+  /*margin: 5px;*/
+  /*border: 1px solid hsl(220, 40%, 50%);*/
+}
+
+.p-video {
+  color: gray;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-family: serif;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  padding-bottom: 10px;
 }
 
 /* FuRo Slider */ /* Gemini */
