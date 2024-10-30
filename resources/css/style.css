@@ -411,19 +411,21 @@ footer figcaption {
 .art {
   display: inline-block;
   border: 1px solid hsl(220, 40%, 50%);
-  margin: 5px;
+  border-radius: 5px;
+  margin: 5px 5px 10px 5px;
+  overflow: hidden;
 }
 
 .art img {
   height: 380px; /*240px*/
   width: 380px;
-  padding: 5px;
+  /*padding: 5px;*/
 }
 
 .art .img-wide {
   height: 200px; /*280px*/
   width: 380px; /*380px*/
-  padding: 5px;
+  /*padding: 5px;*/
 }
 
 /* Music */
