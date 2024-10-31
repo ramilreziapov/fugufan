@@ -1,3 +1,5 @@
+/*--Universal Styles[US]--*/
+
 /*
 * {
   margin: 0;
@@ -11,6 +13,10 @@
 }
 */
 
+* {
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: Padyakke;
   src: url(../fonts/PadyakkeExpandedOne-Regular.ttf) format("truetype");
@@ -21,12 +27,6 @@
   src: url(../fonts/Gruppo-Regular.ttf) format("truetype");
 }
 
-* {
-  box-sizing: border-box;
-}
-
-/* SOMETHING INTERESTING */
-
 body {
   background-color: black;
   /*background-color: #141E30;*/
@@ -34,6 +34,61 @@ body {
   justify-content: center;
   margin: 0 auto;
 }
+
+main {
+  /*background-color: #141E30;*/
+  background-color: black;
+  max-width: 1260px;
+  min-width: 400px;
+  margin-top: 100px;
+}
+
+.brake {
+  height: 120px;
+  background-color: black;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.brake p {
+  color: #01caca;
+  font-size: 20px;
+  padding-top: 5px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+a:hover {
+  color: hsl(325, 50%, 50%);
+}
+
+h2 {
+  color: rgb(167, 249, 2);
+  text-align: center;
+  font-family: Padyakke;
+  font-size: 48px;
+  font-weight: normal;
+}
+
+p, li {
+  color: #01caca;
+  line-height: 26px;
+  font-size: 17px;
+  margin-left: 10px;
+  margin-right: 10px;
+  /*font-family: acumin-pro;*/
+  font-family: Lato;
+  font-weight: 200;
+  font-style: normal;
+}
+
+#fugu, #logic, #runaway, #main-furo {
+  background-color: #141E30;
+  padding: 20px 40px 40px 40px;
+  border-radius: 10px;
+} 
+
+/*--US: Navigation Section--*/
 
 #nav-section {
   position: fixed;
@@ -45,8 +100,6 @@ body {
 }
 
 .navigation {
-  /*display: flex;
-  justify-content: center;*/
   padding-top: 30px;
   padding-bottom: 30px;
   width: 1260px;
@@ -54,7 +107,6 @@ body {
 }
 
 .navigation a {
-  /*color: rgb(126, 2, 249);*/
   color: hsl(240, 100%, 80%);
   font-size: 26px;
   margin-left: 12px;
@@ -68,29 +120,24 @@ body {
 }
 
 .navigation .site-name {
-  /*color: maroon;*/
   color: hsl(325, 50%, 50%);
   font-size: 40px; /*36px;*/
   font-style: italic;
-  /*font-family: serif;*/ /*font-weight: normal;*/
   font-family: alexa-std;
   letter-spacing: 1px;
   font-weight: normal;
 }
 
 .navigation .site-some {
-  /*color: maroon;*/
   font-size: 36px;
   font-family: Gruppo;
   font-weight: bolder;
   word-spacing: 5px;
   font-style: normal;
   color: rgb(167, 249, 2);
-  /*color: hsl(325, 50%, 50%);*/
 }
 
 .navigation .site-art {
-  /*color: maroon;*/
   font-size: 36px;
   font-family: Gruppo;
   font-weight: bolder;
@@ -99,18 +146,80 @@ body {
   color: hsl(325, 50%, 50%);
 }
 
-a:hover {
-  color: hsl(325, 50%, 50%);
+/*-US: Attention-*/
+
+.attention {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
 }
 
-main {
-  /*background-color: #141E30;*/
-  /*width: 1260px;*/
-  max-width: 1260px;
-  min-width: 400px;
-  margin-top: 100px;
-  background-color: black;
+.attention-nav {
+  display: flex;
+  justify-content: center;
+  margin: 0px 30px 30px 30px;
 }
+
+.attention p {
+  color: rgb(162, 161, 161);
+  font-size: 22px;
+  text-align: center;
+  width:fit-content;
+  border-bottom: 0.5px dotted gray;
+  font-family: alexa-std;
+  letter-spacing: 1.5px;
+}
+
+.attention-nav p {
+  color: rgb(162, 161, 161);
+  font-size: 20px;
+  text-align: center;
+  width:fit-content;
+  font-family: alexa-std;
+  letter-spacing: 1.5px;
+  margin-top: 3px;
+  padding: 1px;
+  border: 1px dotted hsl(325, 50%, 50%);
+  border-radius: 5px;
+}
+
+/*-US: Footer-*/
+
+footer {
+  background-color: #141E30;
+  text-align: center;
+  border-radius: 10px;
+}
+
+footer figcaption {
+  color: hsl(325, 50%, 50%);
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-family: alexa-std;
+  font-style: italic;
+  padding: 40px;
+}
+
+/*--Something Interesting[SI]--*/
+
+#ai p {
+  color: hsl(325, 50%, 50%);
+  margin: 30px 0 20px 30px;
+  text-align: left;
+  letter-spacing: 1px;
+  font-family: alexa-std;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.ai-span {
+  border-radius: 50%;
+  border: 1px solid rgb(167, 249, 2);
+  padding: 5px 12px 5px 10px;
+  margin: 5px;
+}
+
+/*-SI: Banner Section-*/
 
 #banner-section {
   background-color: #141E30;
@@ -140,169 +249,7 @@ main {
   width: 200px;
 }
 
-.furo-logo {
-  display: flex;
-  justify-content: center;
-  /*background-size: contain;*/
-  /*background-position: center;*/
-  position: relative;
-  /*background-color: black;*/
-  /*margin: 0 auto;*/
-  /*width: fit-content;*/
-}
-
-.orig-logo {
-  position: relative;
-  /*position: absolute;*/ /* margin: 0 auto; -horizontally centers an element inside of its parent */
-  /*top: 160px;*/
-  /*left: 40px;*/
-  /*transform: translate(-50%, -50%);*/
-  height: 250px; /*350px*/
-  width: 250px; /*350px*/
-}
-
-
-/*.furo-logo-friend {*/
-  /*background-size: contain;*/
-  /*background-position: center;*/
-  /*position: relative;*/
-  /*background-color: black;*/
-  /*margin: 0 auto;*/
-/*}*/
-
-/*.orig-logo-friend {
-  /*position: relative;*/
-  /*position: absolute;*/ /* margin: 0 auto; -horizontally centers an element inside of its parent */
-  /*top: 160px;*/
-  /*left: 870px;*/
-  /*transform: translate(-50%, -50%);*/
-  /*height: 350px;*/
-  /*width: 350px;*/
-/*}*/
-
-
-.brake {
-  height: 120px;
-  background-color: black;
-  text-align: center;
-  padding-top: 30px;
-}
-
-.brake p {
-  color: #01caca;
- /* color: red;*/
-  font-size: 20px;
-  padding-top: 5px;
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
-.attention {
-  display: flex;
-  justify-content: center;
-  margin: 30px;
-  /*margin-top: 30px;
-  margin-bottom: 30px;*/
-}
-
-.attention-nav {
-  display: flex;
-  justify-content: center;
-  margin: 0px 30px 30px 30px;
-  /*margin-top: 30px;
-  margin-bottom: 30px;*/
-}
-
-.attention p {
-  color: rgb(162, 161, 161);
-  font-size: 22px;
-  text-align: center;
-  width:fit-content;
-  border-bottom: 0.5px dotted gray;
-  font-family: alexa-std;
-  letter-spacing: 1.5px;
-}
-
-.attention-nav p {
-  color: rgb(162, 161, 161);
-  font-size: 20px;
-  text-align: center;
-  width:fit-content;
-  font-family: alexa-std;
-  letter-spacing: 1.5px;
-  margin-top: 3px;
-  padding: 1px;
-  border: 1px dotted hsl(325, 50%, 50%);
-  border-radius: 5px;
-  /*border-bottom: 1px solid hsl(325, 50%, 50%);*/
-}
-
-h1 {
-  /*color: maroon;*/
-  color: hsl(325, 50%, 50%);
-  font-size: 3em;
-  text-align: center;
-  font-family: Gruppo;
-  word-spacing: 15px;
-}
-
-
-#fugu, #logic, #runaway, #main-furo {
-  background-color: #141E30;
-  /*margin-top: 60px;
-  margin-bottom: 60px;*/
-  padding: 20px 40px 40px 40px;
-  border-radius: 10px;
-
-  /*display: flex;*/
-  /*justify-content: center;*/
-  /*margin: 0 auto;*/
-} 
-
-h2 {
-  color: rgb(167, 249, 2);
-  text-align: center;
-  font-family: Padyakke;
-  font-size: 48px;
-  font-weight: normal;
-}
-
-p, li {
-  /*color: rgb(4, 146, 146);*/
-  /*color: #02dada;*/
-  /*color: #01bbbb;*/
-  color: #01caca;
-  line-height: 26px;
-  font-size: 17px;
-  margin-left: 10px;
-  margin-right: 10px;
-  /*font-family: Helvetica;
-  font-weight: lighter;
-  font-style: italic;*/
-
-  /*font-family: acumin-pro;*/
-  font-family: Lato;
-  font-weight: 200;
-  font-style: normal;
-}
-
-#ai p {
-  color: hsl(325, 50%, 50%);
-  margin: 30px 0 20px 30px;
-  text-align: left;
-  letter-spacing: 1px;
-  font-family: alexa-std;
-  font-size: 30px;
-  font-weight: bolder;
-}
-
-.ai-span {
-  border-radius: 50%;
-  border: 1px solid rgb(167, 249, 2);
-  /*padding: 7px 5px 0 5px;*/
-  padding: 5px 12px 5px 10px;
-  margin: 5px;
-}
+/*-SI: News_Image Section-*/
 
 .news-image {
   display: flex;
@@ -341,69 +288,7 @@ p, li {
   font-size: 15px;
 }
 
-.ul-music li, .ul-music a {
-  color: hsl(240, 100%, 80%);
-  font-size: 17px;
-  text-decoration: none;
-}
-
-.ul-music a:hover {
-  color: hsl(325, 50%, 50%);
-}
-
-.friend {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-}
-
-.flat-furo {
-  font-family: Gruppo;
-  /*width: fit-content;*/
-  cursor: pointer;
-  font-size: 22px; /*30px*/
-  color: hsl(240, 100%, 80%);
-  margin: 100px 10px 100px 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-  border: 1px solid hsl(240, 100%, 80%);
-  border-radius: 10px;
-  
-}
-
-/*
-.flat-furo:hover {
-  transition: background-color .15s;
-  font-size: .15s;
-  font-size: 36px;
-}
-*/
-.flat-furo:active {
-  border-color: #141E30;
-  font-size: 24px; /*30px*/
-}
-
-footer {
-  background-color: #141E30;
-  text-align: center;
-  border-radius: 10px;
-}
-
-footer figcaption {
-  /*color: rgb(140, 140, 140);*/
-  /*color: rgb(252, 144, 144);*/
-  color: hsl(325, 50%, 50%);
-  font-size: 24px;
-  letter-spacing: 1px;
-  font-family: alexa-std;
-  font-style: italic;
-  padding: 40px;
-}
-
-/* ART */ 
+/*--ART--*/ 
 
 #art-gallery {
   background-color: #141E30;
@@ -434,7 +319,7 @@ footer figcaption {
   /*padding: 5px;*/
 }
 
-/* Music */
+/*--Music--*/
 
 #music-gallery {
   background-color: #141E30;
@@ -443,8 +328,6 @@ footer figcaption {
   padding-top: 80px;
   padding-bottom: 60px;
   border-radius: 10px;
-  /*margin-top: 80px;
-  margin-bottom: 60px;*/
 }
 
 .music {
@@ -452,7 +335,6 @@ footer figcaption {
   height: fit-content;
   width: fit-content;
   margin: 5px 5px 20px 5px;
-  /*border: 1px solid hsl(220, 40%, 50%);*/
 }
 
 .music video {
@@ -477,7 +359,17 @@ footer figcaption {
   padding-left: 2px;
 }
 
-/* Video */
+.ul-music li, .ul-music a {
+  color: hsl(240, 100%, 80%);
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.ul-music a:hover {
+  color: hsl(325, 50%, 50%);
+}
+
+/*--Video--*/
 
 #video-gallery {
   background-color: #141E30;
@@ -488,28 +380,16 @@ footer figcaption {
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 10px;
-  /*display: flex;*/
-  /*justify-content: center;*/
-  /*margin-top: 80px;
-  margin-bottom: 80px;*/
-  /*max-width: 1260px;*/
-  /*min-width: 400px;*/
 }
 
 .video-div {
   display:inline-block;
-  /*height: fit-content;
-  width: fit-content;*/
-  /*margin: 5px 5px 20px 5px;*/
-  /*border: 1px solid hsl(220, 40%, 50%);*/
 }
 
 .video-div video {
   height: 240px;
   width: 380px;
   padding: 5px;
-  /*margin: 5px;*/
-  /*border: 1px solid hsl(220, 40%, 50%);*/
 }
 
 .p-video {
@@ -523,64 +403,175 @@ footer figcaption {
   padding-bottom: 10px;
 }
 
-/* FuRo Slider */ /* Gemini */
+/*--FuRo--*/
 
-/*
-.slider {
-  width: 100%;
-  overflow: hidden;
+.furo-logo {
+  display: flex;
+  justify-content: center;
   position: relative;
-  margin-top: 60px;
+}
+
+.orig-logo {
+  position: relative;
+  height: 250px;
+  width: 250px;
+}
+
+.flat-furo {
+  font-family: Gruppo;
+  /*width: fit-content;*/
+  cursor: pointer;
+  font-size: 22px; /*30px*/
+  color: hsl(240, 100%, 80%);
+  margin: 100px 10px 100px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border: 1px solid hsl(240, 100%, 80%);
+  border-radius: 10px;
+  
+}
+
+.flat-furo:active {
+  border-color: #141E30;
+  font-size: 24px; /*30px*/
+}
+
+.span-furo {
+  color: red;
+  font-size: 36px;
+  text-align: center;
+  font-family: alexa-std;
+  letter-spacing: 1px;
+  font-style: italic;
+  margin-top: -40px;
   margin-bottom: 60px;
 }
-*/
 
-/*
-.slides {
-  display: flex;
-  animation: slide 16s infinite linear;
-  /*(animation: name duration timing-function delay iteration-count direction fill-mode;)*/
-  /*
-  animation-duration: 18s;
-  animation-timing-function:linear;
+.grid-container {
+  unicode-bidi: isolate;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px; 
+  background-color: #141E30;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 10px;
+}
+
+.grid-item {
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  background-position: center;
+  margin-left: 430px;
+  padding: 5px;
+  border: 1px solid hsl(220, 40%, 50%);
+  border-radius: 10px;
+  animation-duration: 16s;
+  animation-timing-function: linear;
   animation-delay: 0s;
   animation-iteration-count: infinite;
   animation-direction: normal;
   animation-fill-mode: none;
   animation-play-state: running;
-  animation-name: slide; /*animation-name: slider;
+  animation-name: slider;
   animation-timeline: auto;
   animation-range-start: normal;
   animation-range-end: normal;
   background-repeat: no-repeat;
-} */
-
-/*
-.slides li {
-  flex: 0 0 auto;
 }
 
-.slides img {
-  width: 300px;
-  height: 300px;
-  /*
-  width: 100%;
-  height: auto;
-
-  object-fit: cover;
-}
-
-@keyframes slide {
+@keyframes slider {
   0% {
-    transform: translateX(0);
+    background-image: url(../images/anime_orig_2.png);
+  }
+  13% {
+    background-image: url(../images/anime_orig_2.png);
+  }
+  14% {
+    background-image: url(../images/anime_orig_3.png);
+  }
+  27% {
+    background-image: url(../images/anime_orig_3.png);
+  }
+  28% {
+    background-image: url(../images/anime_orig_4_back.png);
+  }
+  41% {
+    background-image: url(../images/anime_orig_4_back.png);
+  }
+  42% {
+    background-image: url(../images/anime_orig_5.png);
+  }
+  55% {
+    background-image: url(../images/anime_orig_5.png);
+  }
+  56% {
+    background-image: url(../images/anime_orig_6_back.png);
+  }
+  69% {
+    background-image: url(../images/anime_orig_6_back.png);
+  }
+  70% {
+    background-image: url(../images/anime_orig_7.png);  
+  }
+  86% {
+    background-image: url(../images/anime_orig_7.png);
+  }
+  87% {
+    background-image: url(../images/anime_orig_8.png);
   }
   100% {
-    transform: translateX(-100%);
+    background-image: url(../images/anime_orig_8.png);
   }
-}*/
+}
 
+/*--@Media--*/
 
-/* FuRo with banner animation 1 */
+@media only screen and (max-width: 1070px) {
+
+  main {
+    margin-top: 140px; /*128px*/
+  }
+
+  .navigation {
+    text-align: center;
+    width: fit-content;
+  }
+
+  .banner {
+    margin: 0 auto;
+  }
+
+  .banner-logo {
+    position: relative;
+    left: 70%;
+  } 
+
+}
+
+@media only screen and (max-width: 700px) {
+  main {
+    margin-top: 162px; /*162px*/
+  }
+
+}
+
+/*--Archive--*/
+
+/*
+h1 {
+  color: hsl(325, 50%, 50%);
+  font-size: 3em;
+  text-align: center;
+  font-family: Gruppo;
+  word-spacing: 15px;
+}
+*/
+
+/*-FuRo with banner animation - variation1-*/
 
  /*
 section {
@@ -657,148 +648,3 @@ section {
   }
 }
 */
-
-/* FuRo with banner animation 2 */
-
-.grid-container {
-  unicode-bidi: isolate;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 10px; /* ? */
-  background-color: #141E30;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  border-radius: 10px;
-}
-
-.grid-item {
-  height: 400px;
-  width: 400px;
-  background-size: cover;
-  background-position: center;
-  margin-left: 430px;
-  padding: 5px;
-  border: 1px solid hsl(220, 40%, 50%);
-  border-radius: 10px;
-  animation-duration: 16s;
-  animation-timing-function: linear;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
-  animation-fill-mode: none;
-  animation-play-state: running;
-  animation-name: slider;
-  animation-timeline: auto;
-  animation-range-start: normal;
-  animation-range-end: normal;
-  background-repeat: no-repeat;
-}
-
-@keyframes slider {
-  0% {
-    background-image: url(../images/anime_orig_2.png);
-  }
-  13% {
-    background-image: url(../images/anime_orig_2.png);
-  }
-  14% {
-    background-image: url(../images/anime_orig_3.png);
-  }
-  27% {
-    background-image: url(../images/anime_orig_3.png);
-  }
-  28% {
-    background-image: url(../images/anime_orig_4_back.png);
-  }
-  41% {
-    background-image: url(../images/anime_orig_4_back.png);
-  }
-  42% {
-    background-image: url(../images/anime_orig_5.png);
-  }
-  55% {
-    background-image: url(../images/anime_orig_5.png);
-  }
-  56% {
-    background-image: url(../images/anime_orig_6_back.png);
-  }
-  69% {
-    background-image: url(../images/anime_orig_6_back.png);
-  }
-  70% {
-    background-image: url(../images/anime_orig_7.png);  
-  }
-  86% {
-    background-image: url(../images/anime_orig_7.png);
-  }
-  87% {
-    background-image: url(../images/anime_orig_8.png);
-  }
-  100% {
-    background-image: url(../images/anime_orig_8.png);
-  }
-}
-
-.span-furo {
-  /*color: rgb(140, 140, 140);*/
-  color: red;
-  font-size: 36px;
-  text-align: center;
-  font-family: alexa-std;
-  letter-spacing: 1px;
-  font-style: italic;
-  margin-top: -40px;
-  margin-bottom: 60px;
-}
-
-/* FuRo without banner animation */
-
-/*
-#banner-furo {
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  padding-top: 80px;
-}
-
-.banner-furo img {
-  height: 200px;
-  width: 100px;
-}
-
-#banner-furo .full {
-  height: 200px;
-  width: 200px;
-  padding-left: 40px;
-  padding-right: 40px;
-} 
-*/
-
-@media only screen and (max-width: 1070px) {
-
-  main {
-    margin-top: 140px; /*128px*/
-  }
-
-  .navigation {
-    text-align: center;
-    width: fit-content;
-  }
-
-  .banner {
-    margin: 0 auto;
-  }
-
-  .banner-logo {
-    position: relative;
-    left: 70%;
-  } 
-
-}
-
-@media only screen and (max-width: 700px) {
-  main {
-    margin-top: 162px; /*162px*/
-  }
-
-}
