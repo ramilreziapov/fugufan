@@ -141,38 +141,45 @@ main {
 }
 
 .furo-logo {
-  background-size: contain;
-  background-position: center;
+  display: flex;
+  justify-content: center;
+  /*background-size: contain;*/
+  /*background-position: center;*/
   position: relative;
-  background-color: black;
-  margin: 0 auto;
+  /*background-color: black;*/
+  /*margin: 0 auto;*/
+  /*width: fit-content;*/
 }
 
 .orig-logo {
-  position: absolute; /* margin: 0 auto; -horizontally centers an element inside of its parent */
-  top: 160px;
-  left: 40px;
-  /*transform: translate(-50%, -50%);*/
-  height: 350px;
-  width: 350px;
-}
-
-.furo-logo-friend {
-  background-size: contain;
-  background-position: center;
   position: relative;
-  background-color: black;
-  margin: 0 auto;
+  /*position: absolute;*/ /* margin: 0 auto; -horizontally centers an element inside of its parent */
+  /*top: 160px;*/
+  /*left: 40px;*/
+  /*transform: translate(-50%, -50%);*/
+  height: 250px; /*350px*/
+  width: 250px; /*350px*/
 }
 
-.orig-logo-friend {
-  position: absolute; /* margin: 0 auto; -horizontally centers an element inside of its parent */
-  top: 160px;
-  left: 870px;
+
+/*.furo-logo-friend {*/
+  /*background-size: contain;*/
+  /*background-position: center;*/
+  /*position: relative;*/
+  /*background-color: black;*/
+  /*margin: 0 auto;*/
+/*}*/
+
+/*.orig-logo-friend {
+  /*position: relative;*/
+  /*position: absolute;*/ /* margin: 0 auto; -horizontally centers an element inside of its parent */
+  /*top: 160px;*/
+  /*left: 870px;*/
   /*transform: translate(-50%, -50%);*/
-  height: 350px;
-  width: 350px;
-}
+  /*height: 350px;*/
+  /*width: 350px;*/
+/*}*/
+
 
 .brake {
   height: 120px;
@@ -353,31 +360,30 @@ p, li {
 
 .flat-furo {
   font-family: Gruppo;
-  height: 40px;
-  width: fit-content;
+  /*width: fit-content;*/
   cursor: pointer;
-  font-size: 30px;
+  font-size: 22px; /*30px*/
   color: hsl(240, 100%, 80%);
-  /*margin-top: 40px;*/
-  margin-bottom: 80px;
+  margin: 100px 10px 100px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: black;
   border: 1px solid hsl(240, 100%, 80%);
   border-radius: 10px;
+  
 }
 
+/*
 .flat-furo:hover {
-  /*background-color: rgb(57, 56, 56);*/
   transition: background-color .15s;
   font-size: .15s;
   font-size: 36px;
 }
-
+*/
 .flat-furo:active {
   border-color: #141E30;
-  font-size: 30px;
+  font-size: 24px; /*30px*/
 }
 
 footer {
@@ -656,14 +662,12 @@ section {
 
 .grid-container {
   unicode-bidi: isolate;
-  /*margin-top: 80px;*/
-  /*margin-bottom: 40px;*/
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 10px; /* ? */
   background-color: #141E30;
-  padding-top: 120px;
-  padding-bottom: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   border-radius: 10px;
 }
 
