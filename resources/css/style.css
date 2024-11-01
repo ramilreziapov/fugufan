@@ -165,9 +165,9 @@ p, li {
   font-size: 22px;
   text-align: center;
   width:fit-content;
-  border-bottom: 0.5px dotted gray;
   font-family: alexa-std;
   letter-spacing: 1.5px;
+  border-bottom: 0.5px dotted gray;
 }
 
 .attention-nav p {
@@ -308,15 +308,14 @@ footer figcaption {
 }
 
 .art img {
-  height: 380px; /*240px*/
+  height: 380px;
   width: 380px;
-  /*padding: 5px;*/
+
 }
 
 .art .img-wide {
-  height: 200px; /*280px*/
-  width: 380px; /*380px*/
-  /*padding: 5px;*/
+  height: 200px;
+  width: 380px;
 }
 
 /*--Music--*/
