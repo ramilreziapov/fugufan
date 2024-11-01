@@ -219,6 +219,17 @@ footer figcaption {
   margin: 5px;
 }
 
+.related-music li, .related-music a {
+  color: hsl(240, 100%, 80%);
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.related-music a:hover {
+  color: hsl(325, 50%, 50%);
+}
+
+
 /*-SI: Banner Section-*/
 
 #banner-section {
@@ -264,21 +275,18 @@ footer figcaption {
   margin: 5px;
 }
 
-.news-image-box .news-image-container {
+.news-image-container {
   overflow: hidden;
   margin-bottom: 10px;
-}
-
-.news-image-container {
   border-radius: 5%;
 }
 
-.news-image-box .news-image-container img {
+.news-image-container img {
   height: 400px;
   width: 400px;
 }
 
-.news-image-box .caption {
+.news-image-caption {
   color:gray;
   display: flex;
   justify-content: center;
@@ -358,16 +366,6 @@ footer figcaption {
   padding-left: 2px;
 }
 
-.ul-music li, .ul-music a {
-  color: hsl(240, 100%, 80%);
-  font-size: 17px;
-  text-decoration: none;
-}
-
-.ul-music a:hover {
-  color: hsl(325, 50%, 50%);
-}
-
 /*--Video--*/
 
 #video-gallery {
@@ -404,20 +402,20 @@ footer figcaption {
 
 /*--FuRo--*/
 
-.furo-logo {
+.choose-box {
   display: flex;
   justify-content: center;
   position: relative;
 }
 
-.orig-logo {
+.choose-image {
   position: relative;
   height: 250px;
   width: 250px;
   margin: 20px 80px 20px 80px;
 }
 
-#flat-furo {
+#choose-button {
   cursor: pointer;
   font-family: Gruppo;
   width: fit-content;
@@ -432,15 +430,14 @@ footer figcaption {
   background-color: black;
   border: 1px solid hsl(240, 100%, 80%);
   border-radius: 10px;
-  
 }
 
-#flat-furo:active {
+#choose-button:active {
   border-color: #141E30;
   font-size: 24px; /*30px*/
 }
 
-.span-furo {
+.under-developing {
   color: red;
   font-size: 36px;
   text-align: center;
