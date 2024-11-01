@@ -1,4 +1,4 @@
-/*--Universal Styles[US]--*/
+/*--General Styles[GS]--*/
 
 /*
 * {
@@ -12,6 +12,8 @@
   border: 1px solid green;
 }
 */
+
+/*--Universal Styles[US]--*/
 
 * {
   box-sizing: border-box;
@@ -76,7 +78,6 @@ p, li {
   font-size: 17px;
   margin-left: 10px;
   margin-right: 10px;
-  /*font-family: acumin-pro;*/
   font-family: Lato;
   font-weight: 200;
   font-style: normal;
@@ -103,7 +104,6 @@ p, li {
   padding-top: 30px;
   padding-bottom: 30px;
   width: 1260px;
-
 }
 
 .navigation a {
@@ -128,7 +128,7 @@ p, li {
   font-weight: normal;
 }
 
-.navigation .site-some {
+.navigation .site-something {
   font-size: 36px;
   font-family: Gruppo;
   font-weight: bolder;
@@ -137,7 +137,7 @@ p, li {
   color: rgb(167, 249, 2);
 }
 
-.navigation .site-art {
+.navigation .site-other {
   font-size: 36px;
   font-family: Gruppo;
   font-weight: bolder;
@@ -377,8 +377,8 @@ footer figcaption {
   text-align: center;
   padding-top: 70px;
   padding-bottom: 60px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
   border-radius: 10px;
 }
 
@@ -415,15 +415,18 @@ footer figcaption {
   position: relative;
   height: 250px;
   width: 250px;
+  margin: 20px 80px 20px 80px;
 }
 
-.flat-furo {
-  font-family: Gruppo;
-  /*width: fit-content;*/
+#flat-furo {
   cursor: pointer;
+  font-family: Gruppo;
+  width: fit-content;
+  height: fit-content;
+  padding: 5px;
+  margin-top: 120px;
   font-size: 22px; /*30px*/
   color: hsl(240, 100%, 80%);
-  margin: 100px 10px 100px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -433,7 +436,7 @@ footer figcaption {
   
 }
 
-.flat-furo:active {
+#flat-furo:active {
   border-color: #141E30;
   font-size: 24px; /*30px*/
 }
