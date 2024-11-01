@@ -89,6 +89,17 @@ p, li {
   border-radius: 10px;
 } 
 
+.p-art-mv {
+  color: gray;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-family: serif;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
 /*--US: Navigation Section--*/
 
 #nav-section {
@@ -333,7 +344,7 @@ footer figcaption {
   position: relative;
   text-align: center;
   padding-top: 80px;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
   border-radius: 10px;
 }
 
@@ -348,17 +359,6 @@ footer figcaption {
   height: 380px;
   width: 380px;
   padding: 5px;
-}
-
-.p-music {
-  color: gray;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  font-family: serif;
-  letter-spacing: 0.5px;
-  font-size: 15px;
-  padding-bottom: 10px;
 }
 
 .span-music {
@@ -379,26 +379,16 @@ footer figcaption {
   border-radius: 10px;
 }
 
-.video-div {
+.video-box {
   display:inline-block;
 }
 
-.video-div video {
+.video-box video {
   height: 240px;
   width: 380px;
   padding: 5px;
 }
 
-.p-video {
-  color: gray;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  font-family: serif;
-  letter-spacing: 0.5px;
-  font-size: 15px;
-  padding-bottom: 10px;
-}
 
 /*--FuRo--*/
 
@@ -530,7 +520,6 @@ footer figcaption {
 /*--@Media--*/
 
 @media only screen and (max-width: 1070px) {
-
   main {
     margin-top: 140px; /*128px*/
   }
@@ -548,14 +537,12 @@ footer figcaption {
     position: relative;
     left: 70%;
   } 
-
 }
 
 @media only screen and (max-width: 700px) {
   main {
     margin-top: 162px; /*162px*/
   }
-
 }
 
 /*--Archive--*/
