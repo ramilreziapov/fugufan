@@ -93,7 +93,7 @@ p, li {
 
 #fugu, #logic, #runaway, #main-furo {
   background-color: #141E30;
-  padding: 20px 40px 40px 40px;
+  padding: 60px 40px 40px 40px;
   border-radius: 10px;
 } 
 
@@ -173,12 +173,6 @@ p, li {
   margin: 30px;
 }
 
-.attention-nav {
-  display: flex;
-  justify-content: center;
-  margin: 0px 30px 30px 30px;
-}
-
 .attention p {
   color: rgb(162, 161, 161);
   font-size: 22px;
@@ -186,7 +180,12 @@ p, li {
   width:fit-content;
   font-family: alexa-std;
   letter-spacing: 1.5px;
-  border-bottom: 0.5px dotted gray;
+}
+
+.attention-nav {
+  display: flex;
+  justify-content: center;
+  margin: 0px 30px 30px 30px;
 }
 
 .attention-nav p {
