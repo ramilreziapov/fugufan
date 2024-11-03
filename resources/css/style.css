@@ -9,15 +9,16 @@
 
 /*
 * {
-  border: 1px solid green;
+  box-sizing: border-box;
 }
 */
 
-/*--Universal Styles[US]--*/
-
 * {
-  box-sizing: border-box;
+  border: 1px solid green;
 }
+
+
+/*--Universal Styles[US]--*/
 
 @font-face {
   font-family: Padyakke;
@@ -39,7 +40,7 @@ body {
 
 main {
   /*background-color: #141E30;*/
-  background-color: black;
+  /*background-color: black;*/
   max-width: 1260px;
   min-width: 400px;
   margin-top: 100px;
