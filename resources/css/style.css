@@ -13,10 +13,11 @@
 }
 */
 
+/*
 * {
   border: 1px solid green;
 }
-
+*/
 
 /*--Universal Styles[US]--*/
 
@@ -137,6 +138,14 @@ p, li {
   word-spacing: 5px;
   font-style: italic;
   padding-top: 10px;
+}
+
+.navigation a:hover {
+  color: hsl(325, 50%, 50%);
+}
+
+.navigation .site-something:hover {
+  color: rgb(167, 249, 2);
 }
 
 .navigation .site-name {
