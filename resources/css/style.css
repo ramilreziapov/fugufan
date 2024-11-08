@@ -1,5 +1,7 @@
 /*--General Styles[GS]--*/
 
+/*margin: 0 auto; -horizontally centers an element inside of its parent */
+
 /*
 * {
   margin: 0;
@@ -264,8 +266,8 @@ footer figcaption {
   display: flex;
   background-color: #141E30;
   padding: 20px;
+  /*border: 1px solid blue;*/
   border-radius: 10px;
-  border: 1px solid blue;
 }
 
 .banner {
@@ -277,7 +279,7 @@ footer figcaption {
   position: relative;
   margin: 60px 10px 60px 80px;
   box-shadow: 1px 1px 80px -20px aqua;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   border-radius: 50%;
 }
 
@@ -288,7 +290,7 @@ footer figcaption {
   transform: translate(-50%, -50%);
   height: 200px;
   width: 200px;
-  border: 1px solid aqua;
+  /*border: 1px solid aqua;*/
 }
 
 /*-SI: News_Image Section-*/
