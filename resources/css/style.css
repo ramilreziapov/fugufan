@@ -260,22 +260,24 @@ footer figcaption {
 
 /*-SI: Banner Section-*/
 
-#banner-section {
+#banner-section {  
+  display: flex;
   background-color: #141E30;
   padding: 20px;
   border-radius: 10px;
-  display: flex;
+  border: 1px solid blue;
 }
 
 .banner {
   background-image: url(../images/banner_background_best.png);
-  background-size: contain;
+  background-size: contain; /*contain*/
   background-position: center;
   height: 340px;
   width: 860px;
   position: relative;
   margin: 60px 10px 60px 80px;
   box-shadow: 1px 1px 80px -20px aqua;
+  border: 1px solid red;
   border-radius: 50%;
 }
 
@@ -286,6 +288,7 @@ footer figcaption {
   transform: translate(-50%, -50%);
   height: 200px;
   width: 200px;
+  border: 1px solid aqua;
 }
 
 /*-SI: News_Image Section-*/
