@@ -511,11 +511,16 @@ footer figcaption {
   .somenews {
     padding: 20px;
   } 
+  .somenews p,
+  .somenews li {
+    margin-left: 35px;
+    margin-right: 35px;
+  }
 }
 
 @media only screen and (max-width: 420px) {
   .container-main-nav {
-    height: 160px;
+    height: 170px;
   }
   .somenews {
     padding: 5px;
@@ -523,5 +528,10 @@ footer figcaption {
   #video-gallery {
     padding-left: 0px;
     padding-right: 0px;
+  }
+  .somenews p,
+  .somenews li {
+    margin-left: 15px;
+    margin-right: 15px;
   }
 }
