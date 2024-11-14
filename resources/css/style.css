@@ -513,4 +513,15 @@ footer figcaption {
   } 
 }
 
-
+@media only screen and (max-width: 420px) {
+  .container-main-nav {
+    height: 160px;
+  }
+  .somenews {
+    padding: 5px;
+  }
+  #video-gallery {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
