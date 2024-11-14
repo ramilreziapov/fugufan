@@ -38,7 +38,7 @@ body {
   display: flex;
   justify-content: center;
   height: 120px;
-  /*border: 1px solid orange;*/
+  border: 1px solid orange;
 }
 
 .container-nav {
@@ -52,7 +52,7 @@ body {
   min-width: 400px;
   width: 100%;
   padding: 30px 0px 30px 0px;
-  /*border: 1px solid blue;*/
+  border: 1px solid blue;
   top: 0px;
 }
 
@@ -60,7 +60,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  /*border: 1px solid red;*/
+  border-bottom: 1px solid orange;
 }
 
 .box-nav a {
@@ -121,8 +121,8 @@ body {
   justify-content: center;
   max-width: 1260px;
   min-width: 400px;
-  /*border: 1px solid orange;*/
-  padding: 5px;
+  border: 1px solid orange;
+  border-radius: 10px;
 }
 
 .banner-section {
@@ -178,6 +178,7 @@ body {
   /*border: 1px solid red;*/
 }
 
+
 .attention-nav {
   margin: 0 auto;
   display: flex;
@@ -190,18 +191,19 @@ body {
   /*border: 1px solid blue;*/
 }
 
+
 .attention-nav p {
   color: rgb(162, 161, 161);
   /*color: aliceblue;*/
-  font-size: 20px;
+  font-size: 22px;
   text-align: center;
   font-family: alexa-std;
   letter-spacing: 1.5px;
-  padding: 1px;
+  padding-top: 5px;
   /*border: 1px dotted hsl(325, 50%, 50%);*/
-  border-top: 1px solid hsl(325, 50%, 50%);
+  /*border-top: 1px solid hsl(325, 50%, 50%);
   border-bottom: 1px solid hsl(325, 50%, 50%);
-  border-radius: 5px;
+  border-radius: 5px;*/
 }
 
 /*-- Main Section [MS] --*/
@@ -226,6 +228,7 @@ body {
   font-style: italic;
   letter-spacing: 1px;
   /*border: 1px solid blue;*/
+  border-bottom: 1px solid orange;;
 }
 
 .somenews p,
@@ -502,6 +505,12 @@ footer figcaption {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  .container-main-nav {
+    height: 140px;
+  }
+  .somenews {
+    padding: 20px;
+  } 
 }
 
 
