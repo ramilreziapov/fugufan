@@ -520,7 +520,7 @@ footer figcaption {
 
 @media only screen and (max-width: 430px) {
   .container-main-nav {
-    height: 170px;
+    height: 200px;
   }
   .somenews {
     padding: 5px;
