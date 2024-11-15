@@ -176,24 +176,35 @@
 
 /*-- @Media --*/
 
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 1000px) {
   .grid-item {
-    height: 330px;
-    width: 330px;
+    height: 320px;
+    width: 320px;
   }
   .choose-image {
-    height: 215px;
-    width: 215px;
+    height: 210px;
+    width: 210px;
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   .grid-item {
-    height: 200px;
-    width: 200px;
+    height: 280px;
+    width: 280px;
   }
   .choose-image {
-    height: 100px;
-    width: 100px;
+    height: 160px;
+    width: 160px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .grid-item {
+    height: 240px;
+    width: 240px;
+  }
+  .choose-image {
+    height: 120px;
+    width: 120px;
   }
 }
