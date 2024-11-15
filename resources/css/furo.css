@@ -18,7 +18,7 @@
 .game-container {
   margin: 0 auto;
   max-width: 1260px;
-  min-width: 400px;
+  min-width: 360px;
   background-color: #141E30;
   border: 1px solid orange;
   border-radius: 10px;
@@ -193,8 +193,7 @@
     width: 200px;
   }
   .choose-image {
-    height: 175px;
-    width: 115px;
-    z-index: 1;
+    height: 100px;
+    width: 100px;
   }
 }
