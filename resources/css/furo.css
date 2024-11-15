@@ -208,3 +208,14 @@
     width: 120px;
   }
 }
+
+@media only screen and (max-width: 440px) {
+  .grid-item {
+    height: 210px;
+    width: 210px;
+  }
+  .choose-image {
+    height: 110px;
+    width: 110px;
+  }
+}
