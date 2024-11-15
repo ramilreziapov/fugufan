@@ -530,7 +530,9 @@ footer figcaption {
     padding-right: 0px;
   }
   .somenews p,
-  .somenews li {
+  .somenews li,
+  .somenews ol,
+  .somenews ul {
     margin-left: 15px;
     margin-right: 15px;
   }
