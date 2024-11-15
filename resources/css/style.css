@@ -480,7 +480,7 @@ footer figcaption {
 
 /*-- @Media --*/
 
-@media only screen and (max-width: 1260px) {
+@media only screen and (max-width: 1240px) {
   .container-nav {
     padding-top: 15px;
     padding-bottom: 15px;
