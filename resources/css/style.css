@@ -518,9 +518,15 @@ footer figcaption {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .container-main-nav {
+    height: 140px;
+  }
+}
+
 @media only screen and (max-width: 430px) {
   .container-main-nav {
-    height: 200px;
+    height: 170px;
   }
   .somenews {
     padding: 5px;
