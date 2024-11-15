@@ -30,7 +30,7 @@
   /*border: 1px solid blue;*/
   /*width: 400px;*/
   height: 500px;
-  grid-template: 4fr 1fr / 1fr minmax(100px, 380px) 1fr;
+  grid-template: 4fr 1fr / 1fr minmax(200px, 380px) 1fr;
   padding: 5px;
   /*gap: 20px 5px;*/
   /*justify-content: center;*/
@@ -193,7 +193,8 @@
     width: 200px;
   }
   .choose-image {
-    height: 75px;
-    width: 75px;
+    height: 175px;
+    width: 115px;
+    z-index: 1;
   }
 }
