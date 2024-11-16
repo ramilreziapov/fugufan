@@ -38,7 +38,7 @@ body {
   display: flex;
   justify-content: center;
   height: 120px;
-  border: 1px solid orange;
+  /*border: 1px solid orange;*/
 }
 
 .container-nav {
@@ -52,7 +52,7 @@ body {
   min-width: 360px;
   width: 100%;
   padding: 30px 0px 30px 0px;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   top: 0px;
 }
 
