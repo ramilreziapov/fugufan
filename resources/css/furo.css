@@ -189,8 +189,8 @@
 
 @media only screen and (max-width: 835px) {
   .game-grid {
-    height: 450px;
-}
+    height: 420px;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -217,7 +217,7 @@
 
 @media only screen and (max-width: 520px) {
   .game-grid {
-    height: 400px;
+    height: 380px;
   }
   .grid-item {
     height: 180px;
@@ -232,7 +232,7 @@
 
 @media only screen and (max-width: 420px) {
   .game-grid {
-    height: 360px;
+    height: 340px;
   }
   .grid-item {
     height: 160px;
