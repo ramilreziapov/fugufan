@@ -523,6 +523,10 @@ footer figcaption {
     position: relative;
     z-index: 0;
   }
+  .banner {
+    height: 320px; /*340px*/
+    width: 820px; /*860px*/
+  }
 }
 
 @media only screen and (max-width: 600px) {
