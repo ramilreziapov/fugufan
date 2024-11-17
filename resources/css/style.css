@@ -524,7 +524,7 @@ footer figcaption {
   }
 }
 
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 450px) {
   .container-main-nav {
     height: 170px;
   }
