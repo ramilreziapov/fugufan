@@ -30,7 +30,7 @@
   /*border: 1px solid blue;*/
   /*width: 400px;*/
   height: 500px;
-  grid-template: 4fr 1fr / 1fr minmax(200px, 380px) 1fr;
+  grid-template: 4fr 1fr / 1fr minmax(50px, 380px) 1fr;
   padding: 5px;
   /*gap: 20px 5px;*/
   /*justify-content: center;*/
@@ -108,8 +108,8 @@
 }
 
 .grid-item {
-  height: 380px;
-  width: 380px;
+  height: 360px;
+  width: 360px;
   background-size: cover;
   /*background-position: center;*/
   /*padding: 5px;*/
@@ -217,5 +217,16 @@
   .choose-image {
     height: 100px;
     width: 100px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .grid-item {
+    height: 160px;/*180px*/
+    width: 160px; /*180px*/
+  }
+  .choose-image {
+    height: 95px;/*100px*/
+    width: 95px;/*100px*/
   }
 }
