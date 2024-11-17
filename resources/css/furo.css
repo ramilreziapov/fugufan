@@ -18,7 +18,7 @@
 .game-container {
   margin: 0 auto;
   max-width: 1260px;
-  min-width: 360px;
+  min-width: 320px;
   background-color: #141E30;
   border: 1px solid orange;
   border-radius: 10px;
