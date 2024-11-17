@@ -209,7 +209,7 @@
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 520px) {
   .grid-item {
     height: 180px;
     width: 180px;
@@ -220,8 +220,8 @@
   }
 }
 
-/*
-@media only screen and (max-width: 400px) {
+
+@media only screen and (max-width: 420px) {
   .grid-item {
     height: 160px;
     width: 160px;
@@ -231,4 +231,15 @@
     width: 95px;
   }
 }
-*/
+
+@media only screen and (max-width: 380px) {
+  .grid-item {
+    height: 150px;
+    width: 150px;
+  }
+  .choose-image {
+    height: 90px;
+    width: 90px;
+  }
+}
+
