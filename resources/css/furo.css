@@ -30,7 +30,7 @@
   /*border: 1px solid blue;*/
   /*width: 400px;*/
   height: 500px;
-  grid-template: 4fr 1fr / 1fr minmax(50px, 380px) 1fr;
+  grid-template: 7fr 1fr / 1fr minmax(50px, 380px) 1fr;
   padding: 5px;
   /*gap: 20px 5px;*/
   /*justify-content: center;*/
@@ -189,11 +189,19 @@
 
 @media only screen and (max-width: 835px) {
   .game-grid {
-    height: 420px;
+    height: 400px;
+  }
+  .grid-item {
+    height: 300px;
+    width: 300px;
+  }
+  .choose-image {
+    height: 190px;
+    width: 190px;
   }
 }
 
-@media only screen and (max-width: 835px) {
+@media only screen and (max-width: 800px) {
   .grid-item {
     height: 280px;
     width: 280px;
