@@ -160,12 +160,39 @@ body {
 
 .banner-logo {
   position: absolute;
-  top: 40px;/*40px*/
-  left: 1000px;
-  transform: translate(-50%, -50%);
+  top: -60px;/*40px*/
+  left: 880px;/*1000px*/
+  /*transform: translate(-50%, -50%);*/
   height: 200px;
   width: 200px;
   /*border: 1px solid violet;*/
+  animation: swim 50s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+/*
+.banner-logo img {
+  animation: swim 10s;
+}
+*/
+@keyframes swim {
+  0% {
+    transform: scale(0.5, 0.5);
+  }
+  
+ 25% {
+   transform: translate (-240px, 10px) scale(0.75, 0.75);
+  }
+  
+  50% {
+    transform: translate(-400px, 20px) scale(1.0, 1.0);
+   }
+   75% {
+    transform: translate(-560px, 100px);
+   }
+   100% {
+    transform: translate(-720px, 180px);
+   }
 }
 
 /*-- Attention Section --*/
@@ -300,18 +327,13 @@ body {
   /*margin-left: 30px;
   margin-right: 30px;*/
   /*border: 1px solid red;*/
-  animation: pulse 1s;
+  animation: pulse 6s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes pulse {
-  25% {
-    transform: scale(0.5, 0.5);  
-  }
   50% {
-    transform: scale(1.0, 1.0);
-  }
-  75% {
-    transform: scale(0.5, 0.5);  
+    transform: scale(0.6, 0.6);
   }
 }
 
@@ -516,7 +538,7 @@ footer figcaption {
   }
   .banner-logo {
     position: relative;
-    left: 70%;
+    left: 60%;
   } 
 }
 
