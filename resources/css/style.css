@@ -177,22 +177,35 @@ body {
 */
 @keyframes swim {
   0% {
-    transform: scale(0.5, 0.5);
+    transform: scale(0.25, 0.25);
+  }
+
+  15% {
+    transform: translate(-170px, 20px) scale(0.5, 0.5) rotate(10deg);
   }
   
- 25% {
-   transform: translate (-240px, 10px) scale(0.75, 0.75);
-  }
-  
-  50% {
-    transform: translate(-400px, 20px) scale(1.0, 1.0);
+  30% {
+    transform: translate(-340px, 40px) scale(1.0, 1.0) rotate(-10deg);
    }
+
+   45% {
+    transform: translate(-510px, 60px) rotate(10deg);
+   }
+   60% {
+    transform: translate(-680px, 100px) rotate(-10deg);
+   }
+
    75% {
-    transform: translate(-560px, 100px);
+    transform: translate(-850px, 140px) rotate(10deg);
    }
-   100% {
-    transform: translate(-720px, 180px);
-   }
+
+    90% {
+      transform: translate(-1020px, 180px) rotate(-10deg);
+    }
+
+    100% {
+      transform: translate(-1140px, 220px) rotate(10deg);
+    }
 }
 
 /*-- Attention Section --*/
