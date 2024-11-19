@@ -659,7 +659,7 @@ footer figcaption {
   }
   .banner-logo {
     left: 70%;
-    animation: swim 20s;
+    animation: swim 25s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
   }
