@@ -83,7 +83,7 @@ body {
   font-weight: normal;
   letter-spacing: 1px;
   padding:5px;
-  animation: rightLeft 1s;
+  animation: rightLeft 2s;
 }
 
 @keyframes rightLeft {
@@ -309,6 +309,41 @@ body {
   border: 1px solid rgb(167, 249, 2);
   padding: 5px 12px 5px 10px;
   margin: 5px;
+}
+
+#read-more {
+  width: 200px;
+  height: 30px;
+  font-size: 22px;
+  border: none;
+  display: block;
+  background-color: #fd4d3f;
+  /*background-color: #6df0c2;*/
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-family: 'Nunito';
+  border-radius: 50%;
+}
+
+#more-info{
+  display: none;
+}
+
+#read-less{
+  width: 200px;
+  height: 30px;
+  font-size: 22px;
+  border: none;
+  display: none;
+  background-color: #fd4d3f;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-family: 'Nunito';
+  border-radius: 50%;
 }
 
 .related-music li, .related-music a {
