@@ -65,12 +65,17 @@
 
 /*-- Animation Section --*/
 
-.choose-image {
+#choose-image,
+#choose-image-friend {
   /*position: relative;*/
   height: 250px;
   width: 250px;
   /*margin: 20px 80px 20px 80px;*/
   border: 1px solid yellow;
+}
+
+#choose-image-friend {
+  display: none;
 }
 
 .box h6 {

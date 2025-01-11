@@ -83,7 +83,9 @@ body {
   font-weight: normal;
   letter-spacing: 1px;
   padding:5px;
-  animation: rightLeft 2s;
+  animation-name: rightLeft;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
 }
 
 @keyframes rightLeft {
